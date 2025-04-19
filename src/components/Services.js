@@ -71,17 +71,16 @@ function Services() {
               key={index}
               initial={{ opacity: 0, y: 20, scale: 0.95 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ duration: 2}}
-              className="flex flex-col justify-between max-w-sm w-full bg-white rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.2)] text-black relative m-4"
-            
+              transition={{ duration: 2 }}
+              className="flex flex-col justify-between max-w-sm w-full bg-white rounded-2xl overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.2)] text-black relative m-4 min-h-[350px]" // Устанавливаем минимальную высоту для карточек
             >
-              <div>
+              <div className="flex flex-col h-full">
                 <img
                   src={service.image}
                   alt={service.alt}
                   className="w-full h-56 object-cover"
                 />
-                <div className="p-5">
+                <div className="p-5 flex-grow">
                   <h3 className="text-xl font-semibold">{service.title}</h3>
                   <p className="text-sm text-gray-600 mt-1">
                     {service.description}
