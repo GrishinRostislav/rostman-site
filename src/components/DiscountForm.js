@@ -1,6 +1,5 @@
-// src/components/DiscountForm.js
 import React, { useState } from "react";
-import { sendToTelegram } from "../components/sendToTelegram"; // импортируем функцию отправки
+import { sendToTelegram } from "../components/sendToTelegram";
 
 const DiscountForm = ({ onClose }) => {
   const [name, setName] = useState("");
@@ -13,88 +12,88 @@ const DiscountForm = ({ onClose }) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Формируем сообщение
     const telegramMessage = `
-      Новый запрос на скидку 10%:
-      Имя: ${name}
-      Телефон: ${phone}
-      Email: ${email}
-      Сообщение: ${message}
+      📩 New inquiry received:
+      🔹 Name: ${name}
+      🔹 Phone: ${phone}
+      🔹 Email: ${email}
+      🔹 Message: ${message}
     `;
 
-    // Отправляем в Telegram
     await sendToTelegram(telegramMessage);
 
-    // После отправки можно сбросить форму
     setName("");
     setPhone("");
     setEmail("");
     setMessage("");
     setIsSubmitting(false);
 
-    alert("Thank you for your inquiry! We have received your request and will get in touch with you as soon as possible.");
-    if (onClose) {
-      onClose(); // Закрываем модалку
-    }
+    alert("Thank you! Your message has been sent. I’ll get back to you shortly.");
+    if (onClose) onClose();
   };
 
   return (
-    <div className="max-w-md mx-auto p-4 bg-white rounded-lg shadow-lg">
-      <form onSubmit={handleSubmit}>
-        <div className="mb-4">
-          <label htmlFor="name" className="block text-sm font-semibold">Name</label>
+    <div className="max-w-md mx-auto p-6 bg-white rounded-xl shadow-xl">
+      <h2 className="text-2xl font-semibold text-center mb-4 text-gray-900">Let's work together</h2>
+      <p className="text-sm text-center text-gray-600 mb-6">
+        Leave your contacts and I’ll get in touch with you shortly.
+      </p>
+
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <div>
+          <label htmlFor="name" className="block text-sm font-medium text-gray-700">Your Name</label>
           <input
             type="text"
             id="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
-            className="w-full mt-2 p-2 border border-gray-300 rounded-md"
+            className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-black"
           />
         </div>
 
-        <div className="mb-4">
-          <label htmlFor="phone" className="block text-sm font-semibold">Phone number</label>
+        <div>
+          <label htmlFor="phone" className="block text-sm font-medium text-gray-700">Phone Number</label>
           <input
-            type="text"
+            type="tel"
             id="phone"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             required
-            className="w-full mt-2 p-2 border border-gray-300 rounded-md"
+            className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-black"
           />
         </div>
 
-        <div className="mb-4">
-          <label htmlFor="email" className="block text-sm font-semibold">Email</label>
+        <div>
+          <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email Address</label>
           <input
             type="email"
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="w-full mt-2 p-2 border border-gray-300 rounded-md"
+            className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-black"
           />
         </div>
 
-        <div className="mb-4">
-          <label htmlFor="message" className="block text-sm font-semibold">Message</label>
+        <div>
+          <label htmlFor="message" className="block text-sm font-medium text-gray-700">What can I help you with?</label>
           <textarea
             id="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            required
-            className="w-full mt-2 p-2 border border-gray-300 rounded-md"
             rows="4"
-          ></textarea>
+            required
+            className="mt-1 w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-black"
+          />
         </div>
 
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition"
+          className="w-full bg-black text-white py-2 rounded-md hover:bg-gray-800 transition"
         >
-          {isSubmitting ? "Sending..." : "Get Discount"}
+          {isSubmitting ? "Sending..." : "Send Message"}
         </button>
       </form>
     </div>

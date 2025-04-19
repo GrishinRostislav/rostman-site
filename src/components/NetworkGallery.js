@@ -20,11 +20,12 @@ const NetworkGallery = () => {
   return (
     <section className="w-full sm:max-w-xl mx-auto h-auto object-contain rounded-lg mt-8" id="network-gallery">
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6 text-center">
-        Network Installation Gallery
+        Explore My Network Installation Projects
       </h2>
       <p className="text-center text-gray-600 mb-8">
-        Examples of our networking solutions — structured cabling, strong Wi-Fi, and professional routing for stable performance.
+        Browse through examples of my work in network setup, from Wi-Fi optimization to enterprise solutions.
       </p>
+
 
       <div className="flex flex-col gap-6">
         {images.map((src, index) => {

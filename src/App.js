@@ -15,8 +15,8 @@ import GalleryNetwork from "./components/GalleryNetwork";
 import GallerySecurity from "./components/GallerySecurity";
 import GalleryAV from "./components/GalleryAV";
 import GallerySmartHome from "./components/GallerySmartHome";
-import DiscountForm from "./components/DiscountForm";
-import DiscountButton from "./components/DiscountButton";
+//import DiscountForm from "./components/DiscountForm";
+//import DiscountButton from "./components/DiscountButton";
 import AboutUs from "./components/AboutUs"; // Импортируем компонент "О нас"
 import Services from "./components/Services";
 import SmartHomePage from "./pages/SmartHomePage";
@@ -40,13 +40,13 @@ function App() {
     setIsModalOpen(true);
   };
 
-  const handleDiscountButtonClick = () => {
-    setIsDiscountButtonClicked(true); // Скрываем кнопку сразу
-    openModal({
-      title: "Claim a 10% Discount",
-      text: <DiscountForm onClose={() => setIsModalOpen(false)} />
-    });
-  };
+  // const handleDiscountButtonClick = () => {
+  //   setIsDiscountButtonClicked(true); // Скрываем кнопку сразу
+  //   openModal({
+  //     title: "Claim a 10% Discount",
+  //     text: <DiscountForm onClose={() => setIsModalOpen(false)} />
+  //   });
+  // };
 
 
   return (
@@ -54,10 +54,10 @@ function App() {
       <ScrollToTop />
       <div className="relative min-h-screen bg-gray-100 flex flex-col items-center justify-center px-1 py-12 gap-1 mt-10">
         <Header />
-       <CenterMessage />
+       
         <Routes>
           {/* Маршруты */}
-          <Route path="/about" element={<AboutUs />} /> {/* Обновленный маршрут */}
+        <Route path="/about" element={<AboutUs />} /> {/* Обновленный маршрут */}
         <Route path="/services" element={<Services />} /> {/* Обновленный маршрут */}
         <Route path="/contact" element={<ContactPage />} /> {/* Обновленный маршрут */}
 
@@ -68,44 +68,49 @@ function App() {
         <Route path="/services/computer-repair" element={<ComputerRepairPage />} />
 
           <Route path="/" element={
-            <div className="flex flex-wrap justify-center items-start p-4 sm:p-10">
-              <ServiceCard
-                title="Smart Home"
-                subtext="Transform your home with advanced automation — control lighting, climate, security, and appliances via smartphone or voice"
-                image="/icons/smart_home.jpg"
-                delay={0.4}
-                link="/services/smart-home"
-              />
+            <>
+              <div className="w-full flex items-center justify-center px-4 sm:px-0">
+                <CenterMessage />
+              </div>
+              <div className="flex flex-wrap justify-center items-start p-4 sm:p-10">
+                <ServiceCard
+                  title="Smart Home"
+                  subtext="Custom smart home systems tailored to your needs — lighting, climate, security, and more. Installed and configured by a professional you can trust."
+                  image="/icons/smart_home.jpg"
+                  delay={0.4}
+                  link="/services/smart-home"
+                />
 
-              <ServiceCard
-                title="Security Cameras"
-                subtext="Ensure safety with real-time monitoring, remote access, and 24/7 protection for your home and business"
-                image="/icons/cctv.jpg"
-                delay={0.6}
-                link="/services/security-cameras"
-              />
-              <ServiceCard
-                title="Network"
-                subtext="Optimize connectivity with local network installation, fast setup, and corporate IT support"
-                image="/icons/network.jpg"
-                delay={0.8}
-                link="/services/network"
-              />
-              <ServiceCard
-                title="Audio & Video"
-                subtext="Premium sound and video integration for immersive home entertainment or professional use"
-                image="/icons/av.jpg"
-                delay={1.0}
-                link="/services/audio-video"
-              />
-              <ServiceCard
-                title="Computer Repair"
-                subtext="Expert diagnostics, repair, and optimization to keep your computer systems running smoothly"
-                image="/icons/computer.jpg"
-                delay={0.2}
-                link="/services/computer-repair"
-              />
-            </div>
+                <ServiceCard
+                  title="Security Cameras"
+                  subtext="I help you protect what matters with high-quality video surveillance systems. Installation, configuration, and remote access — all handled for you."
+                  image="/icons/cctv.jpg"
+                  delay={0.6}
+                  link="/services/security-cameras"
+                />
+                <ServiceCard
+                  title="Network"
+                  subtext="Fast and stable internet at home or in the office. I build, optimize, and fix networks so you stay connected."
+                  image="/icons/network.jpg"
+                  delay={0.8}
+                  link="/services/network"
+                />
+                <ServiceCard
+                  title="Audio & Video"
+                  subtext="Immersive sound and visuals for your home or studio. From cabling to final setup, I take care of everything."
+                  image="/icons/av.jpg"
+                  delay={1.0}
+                  link="/services/audio-video"
+                />
+                <ServiceCard
+                  title="Computer Repair"
+                  subtext="Slow laptop? Not turning on? I troubleshoot, repair, and improve performance — no fuss, just results."
+                  image="/icons/computer.jpg"
+                  delay={0.2}
+                  link="/services/computer-repair"
+                />
+              </div>
+              </>
           } />
         </Routes>
 
@@ -114,9 +119,9 @@ function App() {
         )}
 
         {/* Отображаем кнопку скидки, только если она не была нажата */}
-        {!isDiscountButtonClicked && (
+        {/*!isDiscountButtonClicked && (
           <DiscountButton onClick={handleDiscountButtonClick} />
-        )}
+        )*/}
       </div>
       <FloatingContactButton />
       <Footer />

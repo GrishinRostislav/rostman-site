@@ -1,21 +1,37 @@
-// ComputerRepairText.js
+import React from "react";
+
 const ComputerRepairText = () => {
   return (
-    <div className="max-w-3xl mx-auto p-4 bg-white shadow-lg rounded-lg text-gray-800">
-      <pre className="text-lg whitespace-pre-wrap">
-        <span className="font-sans text-xl text-blue-600">🔧 Computer Repair</span>
-        <p className="mt-2 text-base font-sans text-gray-700">Fast. Reliable. On-Site.</p>
-        <p className="mt-2 text-base font-sans text-gray-700">Whether your laptop or personal computer is slow or won’t even turn on — we know exactly what to do.</p>
-        <p className="mt-2 text-base font-sans text-gray-700">Diagnostics, part replacement, cleaning, and full setup — all turnkey.</p>
-        <p className="mt-4 text-base font-sans text-gray-700"><span className="font-semibold">📍 On-site service and office visits</span></p>
-        <p className="mt-2 text-base font-sans text-gray-700"><span className="font-semibold">⏱ Time is money.</span> We fix it the same day</p>
-        <p className="mt-2 text-base font-sans text-gray-700"><span className="font-semibold">🧰 Spare parts always on hand</span></p>
-        <p className="mt-4 text-lg font-bold font-sans text-gray-900">Your computer — our responsibility.</p>
-        <p className="mt-2 text-base text-gray-700 font-sans">Got a problem? We’ve got the solution.</p>
-      </pre>
+    <div className="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-xl text-gray-800 space-y-4">
+      <h2 className="text-xl sm:text-2xl font-bold text-blue-600">🔧 Computer Repair</h2>
+      
+      <p className="text-base sm:text-lg font-sans">
+        Fast. Honest. On-site if needed.
+      </p>
+
+      <p className="text-base sm:text-lg font-sans">
+        Whether your laptop is running slow, randomly crashing, or doesn’t turn on at all — I’ll figure it out and fix it. No guesswork, no unnecessary upsells.
+      </p>
+
+      <p className="text-base sm:text-lg font-sans">
+        I offer diagnostics, part replacement, deep cleaning, system optimization, and full setup — all tailored to your needs.
+      </p>
+
+      <ul className="list-disc list-inside text-base sm:text-lg font-sans mt-2 space-y-1">
+        <li><span className="font-semibold">📍 On-site or in-office visits</span></li>
+        <li><span className="font-semibold">⏱ Same-day service whenever possible</span></li>
+        <li><span className="font-semibold">🧰 Spare parts always on hand</span></li>
+      </ul>
+
+      <p className="text-lg font-bold font-sans text-gray-900 mt-4">
+        Your computer — my responsibility.
+      </p>
+
+      <p className="text-base sm:text-lg font-sans text-gray-700">
+        Got a problem? Just reach out. I’ll take care of it.
+      </p>
     </div>
   );
 };
 
 export default ComputerRepairText;
-

@@ -21,8 +21,9 @@ const SmartHomeGallery = () => {
         Smart Home Installation Gallery
       </h2>
       <p className="text-center text-gray-600 mb-8">
-        Real projects from our clients — showcasing clean design, smart wiring, and advanced automation setups.
+        Showcasing real projects from my clients — highlighting custom smart home integrations, seamless automation, and modern living solutions.
       </p>
+
 
       <div className="flex flex-col gap-6">
         {images.map((src, index) => {

@@ -23,13 +23,13 @@ function Header() {
           to="/"
           className="absolute left-1/2 transform -translate-x-1/2 text-xl font-sans text-black hover:underline"
         >
-          Rostman
+          Rostislav Grishin
         </Link>
 
         {/* Меню для десктопа */}
         <nav className="hidden md:flex gap-6 text-sm font-sans text-gray-700 z-10">
-          <Link to="/services" className="hover:text-black">Services</Link>
-          <Link to="/about" className="hover:text-black">About Us</Link>
+          <Link to="/services" className="hover:text-black">What I Do</Link>
+          <Link to="/about" className="hover:text-black">About Me</Link>
           <Link to="/contact" className="hover:text-black">Contact</Link>
         </nav>
 
@@ -62,14 +62,14 @@ function Header() {
         onClick={() => setMenuOpen(false)}
         className="block text-sm font-sans text-gray-700 hover:text-black"
       >
-        Services
+        What I Do
       </Link>
       <Link
         to="/about"
         onClick={() => setMenuOpen(false)}
         className="block text-sm font-sans text-gray-700 hover:text-black"
       >
-        About Us
+        About Me
       </Link>
       <Link
         to="/contact"

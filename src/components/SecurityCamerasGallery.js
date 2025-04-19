@@ -19,11 +19,12 @@ const SecurityCamerasGallery = () => {
   return (
     <section className="w-full sm:max-w-xl mx-auto h-auto object-contain rounded-lg mt-8" id="security-cameras-gallery">
       <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-6 text-center">
-        Security Cameras Installation Gallery
+        Security Camera Installation Portfolio
       </h2>
       <p className="text-center text-gray-600 mb-8">
-        Real projects from our clients — showcasing state-of-the-art surveillance systems.
+        Real installations — showcasing advanced surveillance systems designed to ensure your safety and peace of mind.
       </p>
+
 
       <div className="flex flex-col gap-6">
         {images.map((src, index) => {
