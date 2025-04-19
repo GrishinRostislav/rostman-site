@@ -58,7 +58,7 @@ function Contacts() {
               </a>
             </li>
             <li>
-              📧 <strong>Email:</strong> info@rostman.ca
+              📧 <strong>Email:</strong> grishin.r@outlook.com
             </li>
             <li>
               🌐 <strong>Service Area:</strong> We serve homes and businesses across Edmonton.

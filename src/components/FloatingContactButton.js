@@ -8,7 +8,7 @@ const FloatingContactButton = () => {
     <div className="fixed z-50 bottom-[2%] right-4 flex flex-col items-end gap-2">
       {open && (
         <div className="flex flex-col gap-3 bg-white p-3 rounded-xl shadow-lg border">
-          <a href="mailto:info@rostman.ca" className="text-red-500 hover:text-red-700 text-2xl" aria-label="Email">
+          <a href="mailto:grishin.r@outlook.com" className="text-red-500 hover:text-red-700 text-2xl" aria-label="Email">
             <FaEnvelope />
           </a>
           <a href="https://t.me/rostman_technology" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 text-2xl" aria-label="Telegram">

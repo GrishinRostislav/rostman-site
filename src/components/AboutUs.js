@@ -19,8 +19,8 @@ const AboutUs = () => {
         <meta property="og:title" content="About Rostman – Smart Home & Tech Integration" />
         <meta property="og:description" content="With global experience and a personal approach, Rostman delivers smart solutions for homes and businesses." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourdomain.com/about" />
-        <meta property="og:image" content="https://yourdomain.com/icons/logoBC.png" />
+        <meta property="og:url" content="https://rostman.net/about" />
+        <meta property="og:image" content="https://rostman.net/icons/logoBC.png" />
       </Helmet>
 
       <div className="max-w-4xl mx-auto px-4 py-12 text-gray-800 font-sans">

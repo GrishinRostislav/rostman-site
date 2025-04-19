@@ -38,7 +38,7 @@ function Footer() {
               <a href="tel:+17805990885" className="hover:text-white">📞 +1 (780) 599-0885</a>
             </li>
             <li>
-              <a href="mailto:info@rostman.ca" className="hover:text-white">📧 info@rostman.ca</a>
+              <a href="mailto:grishin.r@outlook.com" className="hover:text-white">📧 grishin.r@outlook.com</a>
             </li>
           </ul>
           <div className="flex gap-4 mt-4 text-2xl">
