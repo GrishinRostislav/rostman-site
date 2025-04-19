@@ -24,7 +24,7 @@ const AboutUs = () => {
       </Helmet>
 
       <div className="max-w-4xl mx-auto px-4 py-12 text-gray-800 font-sans">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">About Rostman</h2>
+        <h1 className="text-3xl sm:text-4xl font-bold mb-6 text-center">About Rostman</h1>
 
         <p className="mb-6 text-lg leading-relaxed">
           <strong>Rostman</strong> is a boutique tech integration company driven by a single mission — to make smart technology simple, elegant, and truly personal.
