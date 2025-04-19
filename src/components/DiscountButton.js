@@ -11,6 +11,7 @@ function DiscountButton({ onClick }) {
       </button>
     </div>
   );
+  
 }
 
 export default DiscountButton;
