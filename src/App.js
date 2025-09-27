@@ -23,6 +23,7 @@ import SmartHomePage from "./pages/SmartHomePage";
 import SecurityCamerasPage from "./pages/SecurityCamerasPage";
 import NetworkPage from "./pages/NetworkPage";
 import AudioVideoPage from "./pages/AudioVideoPage";
+import SupportPage from "./pages/SupportPage";
 import ComputerRepairPage from "./pages/ComputerRepairPage";
 import ContactPage from "./pages/Contacts";
 import Footer from "./components/Footer";
@@ -60,6 +61,8 @@ function App() {
         <Route path="/about" element={<AboutUs />} /> {/* Обновленный маршрут */}
         <Route path="/services" element={<Services />} /> {/* Обновленный маршрут */}
         <Route path="/contact" element={<ContactPage />} /> {/* Обновленный маршрут */}
+        <Route path="/support" element={<SupportPage />} />
+
 
         <Route path="/services/smart-home" element={<SmartHomePage />} />
         <Route path="/services/security-cameras" element={<SecurityCamerasPage />} />
