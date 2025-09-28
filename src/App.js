@@ -24,6 +24,7 @@ import SecurityCamerasPage from "./pages/SecurityCamerasPage";
 import NetworkPage from "./pages/NetworkPage";
 import AudioVideoPage from "./pages/AudioVideoPage";
 import SupportPage from "./pages/SupportPage";
+import Privacy from "./pages/privacy";
 import ComputerRepairPage from "./pages/ComputerRepairPage";
 import ContactPage from "./pages/Contacts";
 import Footer from "./components/Footer";
@@ -62,6 +63,7 @@ function App() {
         <Route path="/services" element={<Services />} /> {/* Обновленный маршрут */}
         <Route path="/contact" element={<ContactPage />} /> {/* Обновленный маршрут */}
         <Route path="/support" element={<SupportPage />} />
+        <Route path="/privacy" element={<Privacy />} />
 
 
         <Route path="/services/smart-home" element={<SmartHomePage />} />
