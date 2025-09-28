@@ -37,7 +37,7 @@ const PrivacyPage = () => {
           </p>
           <p className="text-gray-700">
             For any questions or concerns, please contact:<br/>
-            <strong>Email:</strong> <a href="mailto:support@rostman.net" className="text-blue-600 hover:underline">support@rostman.net</a><br/>
+            <strong>Email:</strong> <a href="mailto:grishin.r@outlook.com" className="text-blue-600 hover:underline">grishin.r@outlook.com</a><br/>
             <strong>Website:</strong> <a href="https://rostman.net" className="text-blue-600 hover:underline">https://rostman.net</a>
           </p>
         </section>
@@ -56,7 +56,7 @@ const PrivacyPage = () => {
           </p>
           <p className="text-gray-700">
             Если у вас есть вопросы, пишите:<br/>
-            <strong>Email:</strong> <a href="mailto:support@rostman.net" className="text-blue-600 hover:underline">support@rostman.net</a><br/>
+            <strong>Email:</strong> <a href="mailto:grishin.r@outlook.com" className="text-blue-600 hover:underline">grishin.r@outlook.com</a><br/>
             <strong>Сайт:</strong> <a href="https://rostman.net" className="text-blue-600 hover:underline">https://rostman.net</a>
           </p>
         </section>
@@ -75,7 +75,7 @@ const PrivacyPage = () => {
           </p>
           <p className="text-gray-700">
             לשאלות או בירורים, פנה אלינו:<br/>
-            <strong>דוא״ל:</strong> <a href="mailto:support@rostman.net" className="text-blue-600 hover:underline">support@rostman.net</a><br/>
+            <strong>דוא״ל:</strong> <a href="mailto:grishin.r@outlook.com" className="text-blue-600 hover:underline">grishin.r@outlook.com</a><br/>
             <strong>אתר:</strong> <a href="https://rostman.net" className="text-blue-600 hover:underline">https://rostman.net</a>
           </p>
         </section>
