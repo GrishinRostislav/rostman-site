@@ -24,7 +24,7 @@ import SecurityCamerasPage from "./pages/SecurityCamerasPage";
 import NetworkPage from "./pages/NetworkPage";
 import AudioVideoPage from "./pages/AudioVideoPage";
 import SupportPage from "./pages/SupportPage";
-import Privacy from "./pages/privacy";
+import Privacy from "./pages/PrivacyPage";
 import ComputerRepairPage from "./pages/ComputerRepairPage";
 import ContactPage from "./pages/Contacts";
 import Footer from "./components/Footer";
