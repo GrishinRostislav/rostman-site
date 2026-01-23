@@ -1,5 +1,5 @@
 import React from "react";
-import { FaNetworkWired, FaServer, FaVideo, FaLightbulb, FaCogs, FaShieldAlt } from "react-icons/fa";
+import { FaNetworkWired, FaServer, FaLightbulb, FaShieldAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const skillsData = [
