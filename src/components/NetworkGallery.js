@@ -3,8 +3,15 @@ import React from "react";
 
 // Функция для извлечения имени файла без расширения и преобразования в читаемый формат
 function getTextFromFilename(filename) {
-  const name = filename.replace(/^.*[\\\/]/, '').replace(/\.[^/.]+$/, '');
-  return name.replace(/[-_]/g, ' ').toLowerCase();
+  // Remove path (forward or backward slash)
+  const lastSlash = Math.max(filename.lastIndexOf('/'), filename.lastIndexOf('\\'));
+  const nameOnly = lastSlash !== -1 ? filename.substring(lastSlash + 1) : filename;
+
+  // Remove extension
+  const lastDot = nameOnly.lastIndexOf('.');
+  const cleanName = lastDot !== -1 ? nameOnly.substring(0, lastDot) : nameOnly;
+
+  return cleanName.replace(/[-_]/g, ' ').toLowerCase();
 }
 
 // Автоматический импорт всех изображений из папки Network
