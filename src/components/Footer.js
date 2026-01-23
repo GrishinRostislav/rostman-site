@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-10 mt-20">
       <div className="max-w-6xl mx-auto px-6 sm:px-10 grid grid-cols-1 md:grid-cols-3 gap-8">
-        
+
         {/* Personal Info */}
         <div>
           <h2 className="text-xl font-bold mb-4">Rostislav G. | Smart Tech</h2>
@@ -37,7 +37,7 @@ function Footer() {
               <a href="tel:+17805990885" className="hover:text-white">📞 +1 (780) 599-0885</a>
             </li>
             <li>
-              <a href="mailto:grishin.r@outlook.com" className="hover:text-white">📧 grishin.r@outlook.com</a>
+              <a href="mailto:grishin.rost@gmail.com" className="hover:text-white">📧 grishin.rost@gmail.com</a>
             </li>
           </ul>
           <div className="flex gap-4 mt-4 text-2xl">

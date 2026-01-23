@@ -1,87 +1,152 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import { motion, AnimatePresence } from "framer-motion";
-import { Link } from "react-router-dom"; // Импортируем Link из react-router-dom
+import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const isHome = location.pathname === "/";
+
+  // Function to handle navigation to sections
+  const handleNavClick = (sectionId) => {
+    setMenuOpen(false);
+    if (isHome) {
+      // If on home, just scroll
+      // react-scroll logic handles this via ScrollLink usually, 
+      // but for manual calling we can just let ScrollLink do its job.
+    } else {
+      // If not on home, go to home then scroll
+      navigate("/");
+      // Note: Auto-scroll after navigation needs a bit more logic (e.g. hash), 
+      // but for now this resets to top of home. 
+      // User can scroll down.
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) element.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    }
+  };
+
+  const NavItem = ({ to, children }) => {
+    if (isHome) {
+      return (
+        <ScrollLink
+          to={to}
+          smooth={true}
+          duration={500}
+          offset={-80} // header height
+          className="cursor-pointer hover:text-black transition-colors"
+          onClick={() => setMenuOpen(false)}
+        >
+          {children}
+        </ScrollLink>
+      );
+    } else {
+      return (
+        <RouterLink
+          to="/"
+          className="cursor-pointer hover:text-black transition-colors"
+          onClick={() => handleNavClick(to)}
+        >
+          {children}
+        </RouterLink>
+      );
+    }
+  };
 
   return (
-    <header className="w-full bg-white bg-opacity-80 backdrop-blur-md shadow-md fixed top-0 left-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-2 relative flex items-center justify-between">
-        {/* Логотип слева с переходом на главную */}
-        <Link to="/" className="flex items-center gap-2 z-10">
+    <header className="w-full bg-white bg-opacity-90 backdrop-blur-md shadow-sm fixed top-0 left-0 z-50 transition-all duration-300">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+
+        {/* LOGO AREA */}
+        <RouterLink to="/" className="flex items-center gap-3 z-50">
+          {/* You might want a new logo for the pro application, but keeping existing one for now */}
           <img
             src="/icons/logoBC.png"
             alt="Logo"
-            className="w-8 h-8 object-contain"
+            className="w-10 h-10 object-contain"
           />
-        </Link>
+          <div className="hidden sm:block">
+            <h1 className="text-lg font-bold text-gray-900 leading-tight">Rostislav Grishin</h1>
+            <p className="text-xs text-gray-500 tracking-wider">SYSTEMS INTEGRATOR</p>
+          </div>
+        </RouterLink>
 
-        {/* Название по центру с переходом на главную */}
-        <Link
-          to="/"
-          className="absolute left-1/2 transform -translate-x-1/2 text-xl font-sans text-black hover:underline"
-        >
-          Rostislav Grishin
-        </Link>
-
-        {/* Меню для десктопа */}
-        <nav className="hidden md:flex gap-6 text-sm font-sans text-gray-700 z-10">
-          <Link to="/services" className="hover:text-black">What I Do</Link>
-          <Link to="/about" className="hover:text-black">About Me</Link>
-          <Link to="/contact" className="hover:text-black">Contact</Link>
+        {/* DESKTOP NAV */}
+        <nav className="hidden md:flex gap-8 text-sm font-medium text-gray-600">
+          <NavItem to="skills">Skills</NavItem>
+          <NavItem to="experience">Experience</NavItem>
+          <NavItem to="education">Education</NavItem>
+          <NavItem to="contact">Contact</NavItem>
         </nav>
 
-        {/* Иконка меню для мобилки */}
-        <div className="md:hidden z-10">
-          <motion.button
+        {/* MOBILE MENU TOGGLE */}
+        <div className="md:hidden z-50">
+          <button
             onClick={() => setMenuOpen(!menuOpen)}
-            initial={{ rotate: 0 }}
-            animate={{ rotate: menuOpen ? 180 : 0 }}
-            transition={{ duration: 0.3 }}
+            className="text-gray-800 focus:outline-none"
+            aria-label="Toggle Menu"
           >
-            {menuOpen ? <HiX size={24} /> : <HiMenu size={24} />}
-          </motion.button>
+            {menuOpen ? <HiX size={28} /> : <HiMenu size={28} />}
+          </button>
         </div>
       </div>
 
-      {/* Мобильное меню с анимацией */}
-<AnimatePresence>
-  {menuOpen && (
-    <motion.div
-      className="md:hidden bg-white px-4 py-2 space-y-2 shadow-lg"
-      initial={{ opacity: 0, maxHeight: 0 }}
-      animate={{ opacity: 1, maxHeight: 500 }}
-      exit={{ opacity: 0, maxHeight: 0 }}
-      transition={{ duration: 0.3 }}
-      style={{ overflow: "hidden" }}
-    >
-      <Link
-        to="/services"
-        onClick={() => setMenuOpen(false)}
-        className="block text-sm font-sans text-gray-700 hover:text-black"
-      >
-        What I Do
-      </Link>
-      <Link
-        to="/about"
-        onClick={() => setMenuOpen(false)}
-        className="block text-sm font-sans text-gray-700 hover:text-black"
-      >
-        About Me
-      </Link>
-      <Link
-        to="/contact"
-        onClick={() => setMenuOpen(false)}
-        className="block text-sm font-sans text-gray-700 hover:text-black"
-      >
-        Contact
-      </Link>
-    </motion.div>
-  )}
-</AnimatePresence>
-
+      {/* MOBILE NAV OVERLAY */}
+      <AnimatePresence>
+        {menuOpen && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "100vh" }}
+            exit={{ opacity: 0, height: 0 }}
+            className="md:hidden absolute top-0 left-0 w-full bg-white flex flex-col justify-center items-center gap-8 shadow-xl"
+          >
+            <ScrollLink
+              to="skills"
+              smooth={true}
+              duration={500}
+              offset={-80}
+              className="text-xl font-medium text-gray-800"
+              onClick={() => setMenuOpen(false)}
+            >
+              Skills
+            </ScrollLink>
+            <ScrollLink
+              to="experience"
+              smooth={true}
+              duration={500}
+              offset={-80}
+              className="text-xl font-medium text-gray-800"
+              onClick={() => setMenuOpen(false)}
+            >
+              Experience
+            </ScrollLink>
+            <ScrollLink
+              to="education"
+              smooth={true}
+              duration={500}
+              offset={-80}
+              className="text-xl font-medium text-gray-800"
+              onClick={() => setMenuOpen(false)}
+            >
+              Education
+            </ScrollLink>
+            <ScrollLink
+              to="contact"
+              smooth={true}
+              duration={500}
+              offset={-80}
+              className="text-xl font-medium text-gray-800"
+              onClick={() => setMenuOpen(false)}
+            >
+              Contact
+            </ScrollLink>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }
