@@ -66,10 +66,13 @@ function Footer() {
             >
               <FaTelegramPlane />
             </a>
+          </div>
+          {/* Secret/Subtle Portfolio Link */}
+          <div className="mt-2 flex justify-start">
             <Link
               to="/portfolio-gallery"
               aria-label="Portfolio Gallery"
-              className="hover:text-white transition-colors"
+              className="text-gray-800 hover:text-gray-600 transition-colors text-lg"
             >
               <FaImages />
             </Link>
