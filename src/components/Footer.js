@@ -72,7 +72,7 @@ function Footer() {
             <Link
               to="/portfolio-gallery"
               aria-label="Portfolio Gallery"
-              className="text-gray-800 hover:text-gray-600 transition-colors text-lg"
+              className="text-gray-400 hover:text-white transition-colors text-lg"
             >
               <FaImages />
             </Link>
