@@ -26,6 +26,7 @@ import AudioVideoPage from "./pages/AudioVideoPage";
 import SupportPage from "./pages/SupportPage";
 import Privacy from "./pages/PrivacyPage";
 import ComputerRepairPage from "./pages/ComputerRepairPage";
+import PortfolioGallery from "./components/PortfolioGallery";
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
           <Route path="/services/network" element={<NetworkPage />} />
           <Route path="/services/audio-video" element={<AudioVideoPage />} />
           <Route path="/services/computer-repair" element={<ComputerRepairPage />} />
+          <Route path="/portfolio-gallery" element={<PortfolioGallery />} />
         </Routes>
 
         <FloatingContactButton />
