@@ -3,66 +3,75 @@ import { motion } from "framer-motion";
 
 const experiences = [
     {
-        company: "Unified Automation Inc.",
-        location: "Edmonton, AB",
+        company: "Unified Automation",
+        location: "Edmonton, Alberta, Canada",
         role: "Systems Integration Specialist",
-        period: "Oct 2025 – Present",
-        description: "Systems engineering and high-level integration role.",
+        period: "Oct 2025 - Present",
+        description: "High-Level Integration: Configure and program AXIS A1710-B network door controllers & AXIS Camera Station.",
         details: [
-            "Transitioned from standard installation to complex systems engineering.",
-            "Configure and program AXIS A1710-B network door controllers & Camera Station.",
-            "Manage 100+ endpoints including IoT controllers and IP cameras.",
-            "Deploy and manage VPS on OVHcloud for remote tools and VPNs.",
-            "Developed automated digital workflows, reducing incident response time by ~25%."
+            "Infrastructure Management: Support 100+ endpoints (IoT, IP cameras, network sensors).",
+            "Workflow Automation: Developed automated digital workflows reducing incident response time by ~25%.",
+            "Skills: AXIS Camera Station, VPS, OVHcloud, CDVI"
         ]
     },
     {
         company: "Signature Technology Integrations",
-        location: "Edmonton, AB",
-        role: "Security & Network Technician",
-        period: "Mar 2025 – Oct 2025",
-        description: "Commissioning hybrid security systems and legacy takeovers.",
+        location: "Edmonton, Alberta, Canada",
+        role: "Security Systems Specialist",
+        period: "Apr 2025 - Oct 2025",
+        description: "Managed complex 'system takeovers' for commercial clients, diagnosing and restructuring legacy systems without documentation.",
         details: [
-            "Commissioned DSC Neo and Brivo systems for 20+ commercial sites.",
-            "Executed 'takeover' projects, diagnosing and reprogramming legacy systems without documentation.",
-            "Ensured full compliance with local codes."
+            "Commissioned hybrid security ecosystems (DSC Neo, Brivo), serving as the technical lead for 20+ commercial sites.",
+            "Ensured compliance with local safety codes and standards."
         ]
     },
     {
-        company: "TopAudio",
-        location: "Herzliya, Israel",
-        role: "Senior Automation Integrator (Control4 & Dynalite)",
-        period: "Jan 2022 – Oct 2024",
-        description: "Lead integrator for luxury residential and commercial projects.",
+        company: "Top Audio",
+        location: "Herzliya, Tel Aviv District, Israel",
+        role: "Senior Automation Integrator & Team Lead",
+        period: "Jan 2022 - Oct 2024",
+        description: "Lead Integrator for luxury residential projects, handling advanced programming for Control4 and Philips Dynalite.",
         details: [
-            "Programmed complex Control4 logic for lighting, HVAC, and AV.",
-            "Dynalite Specialist: Commercial lighting controllers & DALI/DMX gateways.",
-            "Implemented OvrC/Domotz monitoring, reducing support tickets by 30%.",
-            "Mentored junior technicians on rack building and cable management."
+            "High-End Rack Build: Designed and fabricated complex 42U AV racks involving Multi-Zone Audio Matrices and Video-over-IP.",
+            "Leadership & QA: Mentored junior technicians on installation best practices, reducing post-installation support tickets by 30%.",
+            "System Commissioning: Handling advanced programming for Control4 and Philips Dynalite (Lighting & HVAC logic).",
+            "Client Handover: Managed final system walkthroughs and user training for high-net-worth clients."
         ]
     },
     {
         company: "O-me",
         location: "Jerusalem, Israel",
         role: "Network Implementation Engineer",
-        period: "Nov 2019 – Jan 2022",
-        description: "SMB network architecture and Wi-Fi optimization.",
+        period: "Nov 2019 - Jan 2022",
+        description: "Designed and deployed 150+ networks for residential and SMB clients using Cisco and UniFi.",
         details: [
-            "Architected SMB networks using Cisco Meraki and Fortinet.",
-            "Configured Wi-Fi heatmaps for large concrete structures.",
-            "Built full network racks with structured cabling."
+            "Project Coordination: Coordinated with cross-functional teams to ensuring full-cycle project delivery from design to handover.",
+            "Automation: Implemented configuration scripts to automate router setup, reducing deployment time by 40%.",
+            "Infrastructure: Supervised the build of structured cabling and server racks to support smart ecosystems."
         ]
     },
     {
         company: "KAHANE",
-        location: "Netanya, Israel",
+        location: "Netania, Tel Aviv, Israel",
         role: "Smart Home Systems Engineer",
-        period: "Dec 2016 – Nov 2019",
-        description: "Large-scale system deployment and stakeholder management.",
+        period: "Dec 2016 - Nov 2019",
+        description: "Specialized in Philips Dynalite commissioning and Control4 ecosystems.",
         details: [
-            "Deployed Control4 and Dynalite systems in 70+ properties.",
-            "Collaborated directly with architects and interior designers.",
-            "Configured automation scenarios for high-load environments."
+            "Lighting & Energy Automation: Programmed complex DALI/Relay logic for high-load environments and integrated lighting panels.",
+            "Integration Logic: Deployed Control4 ecosystems in 70+ properties, unifying AV, HVAC, Shades, and Alarm systems.",
+            "Network Segmentation: Configured VLANs and subnets to separate AV traffic from guest networks.",
+            "Design Collaboration: Collaborated directly with architects to translate design requirements into technical schematics and rack layouts."
+        ]
+    },
+    {
+        company: "Rostman",
+        location: "Kazakhstan",
+        role: "IT Systems Engineer (Freelance)",
+        period: "Mar 2010 - May 2016",
+        description: "Built and maintained Windows/Linux server infrastructure for small businesses.",
+        details: [
+            "Managed data backup strategies and system upgrades.",
+            "Provided high-level technical support and client training."
         ]
     }
 ];
