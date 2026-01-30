@@ -31,6 +31,7 @@ const allImages = [
 
 const PortfolioGallery = () => {
     const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+    const [visibleCount, setVisibleCount] = useState(12);
 
     // Modal Navigation
     const handlePrev = (e) => {
@@ -43,8 +44,12 @@ const PortfolioGallery = () => {
         setSelectedImageIndex((prev) => (prev < allImages.length - 1 ? prev + 1 : 0));
     };
 
+    const handleLoadMore = () => {
+        setVisibleCount((prev) => prev + 12);
+    };
+
     return (
-        <section className="min-h-screen bg-gray-50 py-12 px-2 sm:px-6 select-none" onContextMenu={(e) => e.preventDefault()}>
+        <section className="min-h-screen bg-gray-50 pt-32 pb-12 px-2 sm:px-6 select-none" onContextMenu={(e) => e.preventDefault()}>
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="text-center mb-8">
@@ -56,9 +61,9 @@ const PortfolioGallery = () => {
                     </p>
                 </div>
 
-                {/* Simple Grid (No Layout Animation for Performance) */}
+                {/* Simple Grid (Lazy Loaded) */}
                 <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 sm:gap-6">
-                    {allImages.map((img, index) => (
+                    {allImages.slice(0, visibleCount).map((img, index) => (
                         <div
                             key={index}
                             className="group relative cursor-pointer rounded-lg overflow-hidden bg-gray-200 aspect-square"
@@ -81,6 +86,18 @@ const PortfolioGallery = () => {
                         </div>
                     ))}
                 </div>
+
+                {/* Load More Button */}
+                {visibleCount < allImages.length && (
+                    <div className="text-center mt-12">
+                        <button
+                            onClick={handleLoadMore}
+                            className="bg-white border border-gray-300 text-gray-700 hover:bg-gray-50 font-medium py-3 px-8 rounded-full shadow-sm transition-all"
+                        >
+                            Load More Projects ({allImages.length - visibleCount} remaining)
+                        </button>
+                    </div>
+                )}
 
                 {/* Lightbox Modal */}
                 <AnimatePresence>
