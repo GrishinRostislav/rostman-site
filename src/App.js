@@ -60,7 +60,12 @@ function App() {
           <Route path="/services/network" element={<NetworkPage />} />
           <Route path="/services/audio-video" element={<AudioVideoPage />} />
           <Route path="/services/computer-repair" element={<ComputerRepairPage />} />
-          <Route path="/portfolio-gallery" element={<PortfolioGallery />} />
+          <Route path="/portfolio-gallery" element={
+            <>
+              <PortfolioGallery />
+              <ContactSection />
+            </>
+          } />
         </Routes>
 
         <FloatingContactButton />

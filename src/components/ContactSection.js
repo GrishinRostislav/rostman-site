@@ -1,5 +1,6 @@
 import React from "react";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaImages } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ContactSection = () => {
     return (
@@ -35,14 +36,20 @@ const ContactSection = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-center gap-6">
+                <div className="flex justify-center gap-6 items-center">
                     <a href="https://wa.me/17805990885" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-green-500 transition-colors text-3xl">
                         <FaWhatsapp />
                     </a>
-                    {/* Add LinkedIn if available, placeholder for now or remove if not in resume */}
                     <a href="mailto:grishin.rost@gmail.com" className="text-gray-400 hover:text-white transition-colors text-3xl">
                         <FaEnvelope />
                     </a>
+                </div>
+
+                {/* Hidden Portfolio Link */}
+                <div className="flex justify-center mt-6">
+                    <Link to="/portfolio-gallery" className="text-gray-400 hover:text-white transition-colors text-xl">
+                        <FaImages />
+                    </Link>
                 </div>
 
                 <div className="mt-16 pt-8 border-t border-gray-800 text-sm text-gray-500">
