@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhone, FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
+import { FaPhone, FaWhatsapp, FaTelegramPlane, FaImages } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -26,7 +26,6 @@ function Footer() {
             <li><Link to="/services" className="hover:text-white">Services</Link></li>
             <li><Link to="/about" className="hover:text-white">About Me</Link></li>
             <li><Link to="/contact" className="hover:text-white">Contact</Link></li>
-            <li><Link to="/portfolio-gallery" className="hover:text-white">Portfolio</Link></li>
           </ul>
         </div>
 
@@ -67,6 +66,13 @@ function Footer() {
             >
               <FaTelegramPlane />
             </a>
+            <Link
+              to="/portfolio-gallery"
+              aria-label="Portfolio Gallery"
+              className="hover:text-white transition-colors"
+            >
+              <FaImages />
+            </Link>
           </div>
         </div>
 
