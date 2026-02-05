@@ -3,75 +3,75 @@ import { motion } from "framer-motion";
 
 const experiences = [
     {
-        company: "Unified Automation",
-        location: "Edmonton, Alberta, Canada",
-        role: "Systems Integration Specialist",
-        period: "Oct 2025 - Present",
-        description: "High-Level Integration: Configure and program AXIS A1710-B network door controllers & AXIS Camera Station.",
+        company: "Unified Automation Inc.",
+        location: "Edmonton, AB",
+        role: "Lead Systems Technician & Integration Specialist",
+        period: "Oct 2025 – Present",
+        description: null,
         details: [
-            "Infrastructure Management: Support 100+ endpoints (IoT, IP cameras, network sensors).",
-            "Workflow Automation: Developed automated digital workflows reducing incident response time by ~25%.",
-            "Skills: AXIS Camera Station, VPS, OVHcloud, CDVI"
+            "High-Level Integration: Configure and program Enterprise Access Control systems (AXIS A1710-B, Camera Station) and CDVI. Specialized in complex server-side configuration and logical programming.",
+            "IT & Cloud Infrastructure: Manage VPS on OVHcloud for remote system diagnostics and secure VPN tunneling. Responsible for the health of 50+ endpoints (IoT controllers, IP cameras, network sensors).",
+            "Workflow Automation (Dev): Developed custom automated digital workflows (using Python/AI) that reduced technical incident response time by ~25%."
         ]
     },
     {
         company: "Signature Technology Integrations",
-        location: "Edmonton, Alberta, Canada",
-        role: "Security Systems Specialist",
-        period: "Apr 2025 - Oct 2025",
-        description: "Managed complex 'system takeovers' for commercial clients, diagnosing and restructuring legacy systems without documentation.",
+        location: "Edmonton, AB",
+        role: "Security Systems Specialist & Integration Lead",
+        period: "Mar 2025 – Oct 2025",
+        description: null,
         details: [
-            "Commissioned hybrid security ecosystems (DSC Neo, Brivo), serving as the technical lead for 20+ commercial sites.",
-            "Ensured compliance with local safety codes and standards."
+            "Legacy System Takeovers (Reverse Engineering): Specialized in diagnosing and restructuring undocumented legacy infrastructure. Successfully diagnosed and mapped \"blind\" systems where no schematics existed.",
+            "Hybrid Cloud Ecosystems: Acted as Technical Lead for 20+ commercial projects, commissioning Brivo (Cloud Access Control) integrated with DSC Neo (Intrusion) panels.",
+            "Code Compliance: Ensured all installations strictly adhered to Alberta electrical codes and safety standards."
         ]
     },
     {
         company: "Top Audio",
-        location: "Herzliya, Tel Aviv District, Israel",
+        location: "Herzliya, Israel",
         role: "Senior Automation Integrator & Team Lead",
-        period: "Jan 2022 - Oct 2024",
-        description: "Lead Integrator for luxury residential projects, handling advanced programming for Control4 and Philips Dynalite.",
+        period: "Jan 2022 – Oct 2024",
+        description: null,
         details: [
-            "High-End Rack Build: Designed and fabricated complex 42U AV racks involving Multi-Zone Audio Matrices and Video-over-IP.",
-            "Leadership & QA: Mentored junior technicians on installation best practices, reducing post-installation support tickets by 30%.",
-            "System Commissioning: Handling advanced programming for Control4 and Philips Dynalite (Lighting & HVAC logic).",
-            "Client Handover: Managed final system walkthroughs and user training for high-net-worth clients."
+            "Showroom-Quality Rack Engineering: Engineered and fabricated complex 42U AV rack systems. Focused on meticulous cable management, thermal optimization, and strict adherence to schematics.",
+            "Advanced Logic Programming: Lead Programmer for luxury ecosystems. Specialized in Philips Dynalite (DyNet/DALI protocols) and Control4 automation logic (HVAC, Lighting, AV).",
+            "Technical Mentorship: Mentored junior installers on termination standards and rack dressing, reducing post-installation support tickets by 30%.",
+            "AV-over-IP Architecture: Deployed high-bandwidth video distribution systems backed by enterprise-grade networks (Araknis/Cisco) ensuring zero latency."
         ]
     },
     {
         company: "O-me",
         location: "Jerusalem, Israel",
         role: "Network Implementation Engineer",
-        period: "Nov 2019 - Jan 2022",
-        description: "Designed and deployed 150+ networks for residential and SMB clients using Cisco and UniFi.",
+        period: "Nov 2019 – Jan 2022",
+        description: null,
         details: [
-            "Project Coordination: Coordinated with cross-functional teams to ensuring full-cycle project delivery from design to handover.",
-            "Automation: Implemented configuration scripts to automate router setup, reducing deployment time by 40%.",
-            "Infrastructure: Supervised the build of structured cabling and server racks to support smart ecosystems."
+            "Network Architecture: Designed and deployed 150+ robust network infrastructures for SMB clients using Cisco Meraki, Fortinet, and Ubiquiti.",
+            "Scripting & Automation: Implemented Python configuration scripts to automate router provisioning, reducing deployment time by 40% and eliminating manual errors.",
+            "Infrastructure Build: Oversaw end-to-end installation of structured cabling (Cat6/Fiber) and server rack build-outs."
         ]
     },
     {
         company: "KAHANE",
-        location: "Netania, Tel Aviv, Israel",
+        location: "Netanya, Israel",
         role: "Smart Home Systems Engineer",
-        period: "Dec 2016 - Nov 2019",
-        description: "Specialized in Philips Dynalite commissioning and Control4 ecosystems.",
+        period: "Dec 2016 – Nov 2019",
+        description: null,
         details: [
-            "Lighting & Energy Automation: Programmed complex DALI/Relay logic for high-load environments and integrated lighting panels.",
-            "Integration Logic: Deployed Control4 ecosystems in 70+ properties, unifying AV, HVAC, Shades, and Alarm systems.",
-            "Network Segmentation: Configured VLANs and subnets to separate AV traffic from guest networks.",
-            "Design Collaboration: Collaborated directly with architects to translate design requirements into technical schematics and rack layouts."
+            "Philips Dynalite Engineering: Specialized in commissioning complex lighting control systems using DALI and Relay protocols. Integrated lighting panels into broader BMS (Building Management Systems).",
+            "Full-Stack Automation: Deployed and programmed unified Control4 ecosystems in 70+ properties, integrating AV, HVAC, Shades, and Alarm systems.",
+            "Network Traffic Engineering: Configured VLANs and subnets to physically separate AV traffic from guest data, ensuring stability for media streaming."
         ]
     },
     {
         company: "Rostman",
         location: "Kazakhstan",
         role: "IT Systems Engineer (Freelance)",
-        period: "Mar 2010 - May 2016",
-        description: "Built and maintained Windows/Linux server infrastructure for small businesses.",
+        period: "Mar 2010 – May 2016",
+        description: null,
         details: [
-            "Managed data backup strategies and system upgrades.",
-            "Provided high-level technical support and client training."
+            "IT Infrastructure Consulting: Designed, deployed, and administered robust Windows Server and Linux environments for SMB clients.",
+            "System Administration: Managed virtualization (Hyper-V), Active Directory, and implemented Shell scripting for automated system maintenance."
         ]
     }
 ];
@@ -118,15 +118,29 @@ const ExperienceSection = () => {
                                     </div>
 
                                     <h4 className="text-xl font-bold text-gray-700 mb-2">{exp.role}</h4>
-                                    <p className="italic text-gray-600 mb-4">{exp.description}</p>
+
+                                    {/* Optional Description */}
+                                    {exp.description && (
+                                        <p className="italic text-gray-600 mb-4">{exp.description}</p>
+                                    )}
 
                                     <ul className="space-y-2">
-                                        {exp.details.map((detail, idx) => (
-                                            <li key={idx} className="text-gray-600 text-sm flex items-start">
-                                                <span className="mr-2 text-gray-400 mt-[2px]">-</span>
-                                                {detail}
-                                            </li>
-                                        ))}
+                                        {exp.details.map((detail, idx) => {
+                                            // Bold the part before the first colon
+                                            const parts = detail.includes(':') ? detail.split(':') : [detail];
+                                            const label = parts.length > 1 ? parts[0] : null;
+                                            const text = parts.length > 1 ? parts.slice(1).join(':') : detail;
+
+                                            return (
+                                                <li key={idx} className="text-gray-600 text-sm flex items-start">
+                                                    <span className="mr-2 text-gray-400 mt-[2px]">-</span>
+                                                    <span>
+                                                        {label && <strong className="text-gray-800">{label}:</strong>}
+                                                        {text}
+                                                    </span>
+                                                </li>
+                                            );
+                                        })}
                                     </ul>
                                 </div>
                             </div>
