@@ -80,6 +80,7 @@ function Header() {
           <NavItem to="skills">Skills</NavItem>
           <NavItem to="experience">Experience</NavItem>
           <NavItem to="education">Education</NavItem>
+          <RouterLink to="/portfolio-gallery" className="cursor-pointer hover:text-black transition-colors">Gallery</RouterLink>
           <NavItem to="contact">Contact</NavItem>
         </nav>
 
@@ -134,6 +135,13 @@ function Header() {
             >
               Education
             </ScrollLink>
+            <RouterLink
+              to="/portfolio-gallery"
+              className="text-xl font-medium text-gray-800"
+              onClick={() => setMenuOpen(false)}
+            >
+              Gallery
+            </RouterLink>
             <ScrollLink
               to="contact"
               smooth={true}

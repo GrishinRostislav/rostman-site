@@ -1,6 +1,5 @@
 import React from "react";
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaImages } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
 const ContactSection = () => {
     return (
@@ -43,13 +42,6 @@ const ContactSection = () => {
                     <a href="mailto:grishin.rost@gmail.com" className="text-gray-400 hover:text-white transition-colors text-3xl">
                         <FaEnvelope />
                     </a>
-                </div>
-
-                {/* Hidden Portfolio Link */}
-                <div className="flex justify-center mt-6">
-                    <Link to="/portfolio-gallery" className="text-gray-400 hover:text-white transition-colors text-xl">
-                        <FaImages />
-                    </Link>
                 </div>
 
                 <div className="mt-16 pt-8 border-t border-gray-800 text-sm text-gray-500">
