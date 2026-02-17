@@ -18,14 +18,13 @@ const HeroSection = () => {
         className="z-10 text-center max-w-4xl"
       >
         <h2 className="text-premium-accent font-bold tracking-wider uppercase mb-4 text-sm sm:text-base">
-          Automation Systems Technologist | Network & Security Integrator
+          Infrastructure & Network Security Engineer
         </h2>
         <h1 className="text-5xl sm:text-7xl font-display font-bold mb-6 leading-tight tracking-tight">
           Rostislav Grishin
         </h1>
         <p className="text-lg sm:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Bridging the gap between hardware installation and software configuration.
-          Expert in Building Automation, Enterprise Networks, and Integrated Security Ecosystems.
+          Infrastructure & Security Engineer with 13+ years of experience in deploying, securing, and automating multi-site network environments. Specialist in IoT Hardening, Network Segmentation, and enterprise-grade AV integration.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

@@ -4,24 +4,24 @@ import { motion } from "framer-motion";
 
 const skillsData = [
     {
-        category: "Building Automation",
-        icon: <FaLightbulb className="text-4xl text-yellow-500 mb-4" />,
-        skills: ["Control4 (Advanced Programmer)", "Philips Dynalite", "Lighting Control", "HVAC Integration", "Smart Home Logic"],
-    },
-    {
-        category: "Network Engineering",
-        icon: <FaNetworkWired className="text-4xl text-blue-500 mb-4" />,
-        skills: ["Cisco Meraki", "Aruba Instant On", "Ubiquiti UniFi (UDM Pro/SE)", "VLAN Segmentation", "VPN Tunneling", "High-Density Wi-Fi"],
-    },
-    {
-        category: "Access Control & Security",
+        category: "Network Security",
         icon: <FaShieldAlt className="text-4xl text-red-500 mb-4" />,
-        skills: ["AXIS (A1710-B, Camera Station)", "Brivo Access Control", "DSC Neo / PowerSeries", "IP Surveillance Architecture"],
+        skills: ["Fortinet, Cisco Meraki, Aruba", "VLANs, VPNs", "Traffic Isolation"],
     },
     {
-        category: "IT Infrastructure",
-        icon: <FaServer className="text-4xl text-green-500 mb-4" />,
-        skills: ["VPS Management (OVHcloud)", "Remote Access (OvrC, Domotz)", "Server-Client Architecture", "Structured Cabling"],
+        category: "IoT & Access Control",
+        icon: <FaServer className="text-4xl text-blue-500 mb-4" />,
+        skills: ["AXIS, Brivo, CDVI, DSC Neo", "IoT Hardening", "Lateral Movement Mitigation"],
+    },
+    {
+        category: "Protocols & Routing",
+        icon: <FaNetworkWired className="text-4xl text-green-500 mb-4" />,
+        skills: ["TCP/IP, DHCP/DNS", "Inter-VLAN routing", "QoS Optimization"],
+    },
+    {
+        category: "Automation & Infra",
+        icon: <FaLightbulb className="text-4xl text-yellow-500 mb-4" />,
+        skills: ["Python CLI & Shell Scripts", "OVHcloud VPS / RMM (OvrC, Domotz)", "Rack Design & Fiber/Cat6"],
     },
 ];
 

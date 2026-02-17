@@ -5,38 +5,39 @@ const experiences = [
     {
         company: "Unified Automation Inc.",
         location: "Edmonton, AB",
-        role: "Lead Systems Technician & Integration Specialist",
+        role: "Systems Integration Engineer",
         period: "Oct 2025 – Present",
         description: null,
         details: [
-            "High-Level Integration: Configure and program Enterprise Access Control systems (AXIS A1710-B, Camera Station) and CDVI. Specialized in complex server-side configuration and logical programming.",
-            "IT & Cloud Infrastructure: Manage VPS on OVHcloud for remote system diagnostics and secure VPN tunneling. Responsible for the health of 50+ endpoints (IoT controllers, IP cameras, network sensors).",
-            "Workflow Automation (Dev): Developed custom automated digital workflows (using Python/AI) that reduced technical incident response time by ~25%."
+            "IoT Hardening: Configured AXIS/CDVI controllers in VLANs to mitigate lateral movement threats.",
+            "Secure Remote Access: Managed private VPN infrastructure on OVHcloud VPS for encrypted diagnostics.",
+            "Reliability: Maintained 99.9% uptime for 50+ enterprise endpoints via proactive monitoring.",
+            "Automation: Developed custom workflows reducing incident response time by 25%."
         ]
     },
     {
         company: "Signature Technology Integrations",
         location: "Edmonton, AB",
-        role: "Security Systems Specialist & Integration Lead",
+        role: "Security & Network Integration Specialist",
         period: "Mar 2025 – Oct 2025",
         description: null,
         details: [
-            "Legacy System Takeovers (Reverse Engineering): Specialized in diagnosing and restructuring undocumented legacy infrastructure. Successfully diagnosed and mapped \"blind\" systems where no schematics existed.",
-            "Hybrid Cloud Ecosystems: Acted as Technical Lead for 20+ commercial projects, commissioning Brivo (Cloud Access Control) integrated with DSC Neo (Intrusion) panels.",
-            "Code Compliance: Ensured all installations strictly adhered to Alberta electrical codes and safety standards."
+            "Cloud Ecosystems: Lead on 20+ commercial projects (Brivo Cloud + DSC Neo integration).",
+            "Audit & Recovery: Reverse-engineered undocumented legacy environments for full operational integrity.",
+            "Traffic Isolation: VLAN segmentation separating high-bandwidth security traffic from corporate data networks."
         ]
     },
     {
-        company: "Top Audio",
+        company: "TopAudio",
         location: "Herzliya, Israel",
-        role: "Senior Automation Integrator & Team Lead",
+        role: "Senior Infrastructure & Automation Engineer",
         period: "Jan 2022 – Oct 2024",
         description: null,
         details: [
-            "Showroom-Quality Rack Engineering: Engineered and fabricated complex 42U AV rack systems. Focused on meticulous cable management, thermal optimization, and strict adherence to schematics.",
-            "Advanced Logic Programming: Lead Programmer for luxury ecosystems. Specialized in Philips Dynalite (DyNet/DALI protocols) and Control4 automation logic (HVAC, Lighting, AV).",
-            "Technical Mentorship: Mentored junior installers on termination standards and rack dressing, reducing post-installation support tickets by 30%.",
-            "AV-over-IP Architecture: Deployed high-bandwidth video distribution systems backed by enterprise-grade networks (Araknis/Cisco) ensuring zero latency."
+            "Architecture: Multi-layer VLAN segmentation for high-density AV/security environments.",
+            "Vendor Integration: Fortinet, Cisco, Araknis in 42U rack deployments with thermal optimization.",
+            "Service Optimization: Reduced site visits by 30% using OvrC/RMM proactive maintenance.",
+            "Leadership: Mentored junior engineers and established technical standards."
         ]
     },
     {
@@ -46,32 +47,30 @@ const experiences = [
         period: "Nov 2019 – Jan 2022",
         description: null,
         details: [
-            "Network Architecture: Designed and deployed 150+ robust network infrastructures for SMB clients using Cisco Meraki, Fortinet, and Ubiquiti.",
-            "Scripting & Automation: Implemented Python configuration scripts to automate router provisioning, reducing deployment time by 40% and eliminating manual errors.",
-            "Infrastructure Build: Oversaw end-to-end installation of structured cabling (Cat6/Fiber) and server rack build-outs."
+            "Automation: Python CLI scripts reduced Cisco config time from 10m → 2m for 130 branches.",
+            "Scaling: Deployed 150+ secure infrastructures using FortiGate, Aruba, Meraki.",
+            "RF Engineering: Wi-Fi heatmapping and optimization for complex architectural structures."
         ]
     },
     {
-        company: "KAHANE",
-        location: "Netanya, Israel",
-        role: "Smart Home Systems Engineer",
+        company: "Kahane",
+        location: "Israel",
+        role: "Network & Systems Integration Engineer",
         period: "Dec 2016 – Nov 2019",
         description: null,
         details: [
-            "Philips Dynalite Engineering: Specialized in commissioning complex lighting control systems using DALI and Relay protocols. Integrated lighting panels into broader BMS (Building Management Systems).",
-            "Full-Stack Automation: Deployed and programmed unified Control4 ecosystems in 70+ properties, integrating AV, HVAC, Shades, and Alarm systems.",
-            "Network Traffic Engineering: Configured VLANs and subnets to physically separate AV traffic from guest data, ensuring stability for media streaming."
+            "Engineered Philips Dynalite and Control4 ecosystems for 70+ properties with VLAN-based data isolation and firewall policies."
         ]
     },
     {
         company: "Rostman",
         location: "Kazakhstan",
-        role: "IT Systems Engineer (Freelance)",
+        role: "IT Infrastructure Engineer (Freelance)",
         period: "Mar 2010 – May 2016",
         description: null,
         details: [
-            "IT Infrastructure Consulting: Designed, deployed, and administered robust Windows Server and Linux environments for SMB clients.",
-            "System Administration: Managed virtualization (Hyper-V), Active Directory, and implemented Shell scripting for automated system maintenance."
+            "Managed Windows Server/Linux, Active Directory, Hyper-V virtualization for SMB clients.",
+            "Designed disaster recovery protocols and automated backup strategies."
         ]
     }
 ];
