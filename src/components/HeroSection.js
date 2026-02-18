@@ -18,13 +18,13 @@ const HeroSection = () => {
         className="z-10 text-center max-w-4xl"
       >
         <h2 className="text-premium-accent font-bold tracking-wider uppercase mb-4 text-sm sm:text-base">
-          Infrastructure & Network Security Engineer
+          Network & IoT Security Engineer
         </h2>
         <h1 className="text-5xl sm:text-7xl font-display font-bold mb-6 leading-tight tracking-tight">
           Rostislav Grishin
         </h1>
         <p className="text-lg sm:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Infrastructure & Security Engineer with 13+ years of experience in deploying, securing, and automating multi-site network environments. Specialist in IoT Hardening, Network Segmentation, and enterprise-grade AV integration.
+          Network and IoT Security Specialist with deep experience securing physical access control and enterprise hardware (IoT/OT). Focused on protecting infrastructure by reducing attack surfaces, preventing lateral movement, and implementing secure remote access protocols.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -46,7 +46,7 @@ const HeroSection = () => {
             Contact Me
           </Link>
           <a
-            href="/Rostislav_Grishin_Infrastructure_Security_Engineer.pdf"
+            href="/Rostislav Grishin - Network & IoT Security Engineer.pdf"
             download
             className="cursor-pointer flex items-center gap-2 text-gray-400 hover:text-white font-medium py-3 px-6 transition-colors"
           >

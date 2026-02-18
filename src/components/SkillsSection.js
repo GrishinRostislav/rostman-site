@@ -4,24 +4,24 @@ import { motion } from "framer-motion";
 
 const skillsData = [
     {
-        category: "Network Security",
+        category: "Network & Security",
         icon: <FaShieldAlt className="text-4xl text-red-500 mb-4" />,
-        skills: ["Fortinet, Cisco Meraki, Aruba", "VLANs, VPNs", "Traffic Isolation"],
+        skills: ["VLAN Architecture & Segmentation", "Firewall Configuration (Fortinet/Meraki)", "Encrypted VPN Tunnels", "Threat Surface Reduction"],
     },
     {
-        category: "IoT & Access Control",
-        icon: <FaServer className="text-4xl text-blue-500 mb-4" />,
-        skills: ["AXIS, Brivo, CDVI, DSC Neo", "IoT Hardening", "Lateral Movement Mitigation"],
+        category: "IoT & Hardware",
+        icon: <FaNetworkWired className="text-4xl text-blue-500 mb-4" />,
+        skills: ["IoT/OT Security Hardening", "Access Control (AXIS, Brivo, CDVI)", "DSC Neo Intrusion Systems", "Enterprise Rack Engineering"],
     },
     {
-        category: "Protocols & Routing",
-        icon: <FaNetworkWired className="text-4xl text-green-500 mb-4" />,
-        skills: ["TCP/IP, DHCP/DNS", "Inter-VLAN routing", "QoS Optimization"],
-    },
-    {
-        category: "Automation & Infra",
+        category: "Systems & Automation",
         icon: <FaLightbulb className="text-4xl text-yellow-500 mb-4" />,
-        skills: ["Python CLI & Shell Scripts", "OVHcloud VPS / RMM (OvrC, Domotz)", "Rack Design & Fiber/Cat6"],
+        skills: ["Linux Server Admin & Hardening", "Python CLI & Shell Scripting", "Proactive RMM (OvrC, Domotz)", "Disaster Recovery Strategies"],
+    },
+    {
+        category: "Lab & Infrastructure",
+        icon: <FaServer className="text-4xl text-green-500 mb-4" />,
+        skills: ["OVHcloud VPS Administration", "Custom CRM & API Integration", "Home Lab Server Hardening", "Network Traffic Analysis"],
     },
 ];
 

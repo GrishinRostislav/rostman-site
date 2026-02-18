@@ -5,72 +5,72 @@ const experiences = [
     {
         company: "Unified Automation Inc.",
         location: "Edmonton, AB",
-        role: "Systems Integration Engineer",
+        role: "Network Security & Integration Specialist (Contract)",
         period: "Oct 2025 – Present",
         description: null,
         details: [
-            "IoT Hardening: Configured AXIS/CDVI controllers in VLANs to mitigate lateral movement threats.",
-            "Secure Remote Access: Managed private VPN infrastructure on OVHcloud VPS for encrypted diagnostics.",
-            "Reliability: Maintained 99.9% uptime for 50+ enterprise endpoints via proactive monitoring.",
-            "Automation: Developed custom workflows reducing incident response time by 25%."
+            "Secure enterprise IoT and physical access control systems by implementing strict VLAN network segmentation.",
+            "Prevent unauthorized lateral network movement by logically isolating high-risk edge hardware from core corporate data networks.",
+            "Configure encrypted VPN tunnels for secure remote diagnostics, removing the need for vulnerable public-facing IP addresses.",
+            "Monitor network health and security status for 50+ critical endpoints using proactive RMM tools to prevent system downtime."
         ]
     },
     {
         company: "Signature Technology Integrations",
         location: "Edmonton, AB",
-        role: "Security & Network Integration Specialist",
+        role: "Security Integration Specialist (Contract)",
         period: "Mar 2025 – Oct 2025",
         description: null,
         details: [
-            "Cloud Ecosystems: Lead on 20+ commercial projects (Brivo Cloud + DSC Neo integration).",
-            "Audit & Recovery: Reverse-engineered undocumented legacy environments for full operational integrity.",
-            "Traffic Isolation: VLAN segmentation separating high-bandwidth security traffic from corporate data networks."
+            "Conducted technical security audits on undocumented legacy networks to identify vulnerabilities and restore system stability.",
+            "Managed the secure network integration of 20+ commercial cloud-based access control systems, ensuring data privacy and compliance.",
+            "Designed network traffic rules to separate high-bandwidth IP cameras from internal business networks, improving overall network performance and security posture."
         ]
     },
     {
         company: "TopAudio",
         location: "Herzliya, Israel",
-        role: "Senior Infrastructure & Automation Engineer",
+        role: "Infrastructure & Network Security Engineer",
         period: "Jan 2022 – Oct 2024",
         description: null,
         details: [
-            "Architecture: Multi-layer VLAN segmentation for high-density AV/security environments.",
-            "Vendor Integration: Fortinet, Cisco, Araknis in 42U rack deployments with thermal optimization.",
-            "Service Optimization: Reduced site visits by 30% using OvrC/RMM proactive maintenance.",
-            "Leadership: Mentored junior engineers and established technical standards."
+            "Designed multi-layer VLAN architectures for high-density AV and physical security deployments to ensure strict traffic separation.",
+            "Secured Fortinet, Cisco, and Araknis networking infrastructure within structured 42U rack systems.",
+            "Automated proactive RMM monitoring workflows, reducing on-site emergency visits by 30% through early detection of system faults.",
+            "Mentored junior engineers and formalized technical deployment documentation to enforce consistent security standards."
         ]
     },
     {
         company: "O-me",
         location: "Jerusalem, Israel",
-        role: "Network Implementation Engineer",
+        role: "Network Deployment Engineer",
         period: "Nov 2019 – Jan 2022",
         description: null,
         details: [
-            "Automation: Python CLI scripts reduced Cisco config time from 10m → 2m for 130 branches.",
-            "Scaling: Deployed 150+ secure infrastructures using FortiGate, Aruba, Meraki.",
-            "RF Engineering: Wi-Fi heatmapping and optimization for complex architectural structures."
+            "Automated secure Cisco configuration workflows, significantly reducing deployment time across 130+ branch locations.",
+            "Deployed 150+ secure network infrastructures utilizing FortiGate firewalls and Aruba/Meraki access points.",
+            "Performed RF optimization and Wi-Fi heatmapping to ensure secure, reliable, and leak-free wireless coverage in complex architectural environments."
         ]
     },
     {
         company: "Kahane",
         location: "Israel",
-        role: "Network & Systems Integration Engineer",
+        role: "Systems Integration Engineer",
         period: "Dec 2016 – Nov 2019",
         description: null,
         details: [
-            "Engineered Philips Dynalite and Control4 ecosystems for 70+ properties with VLAN-based data isolation and firewall policies."
+            "Engineered secure automation ecosystems for 70+ properties, enforcing strict firewall policies and VLAN isolation for vulnerable edge devices."
         ]
     },
     {
         company: "Rostman",
         location: "Kazakhstan",
-        role: "IT Infrastructure Engineer (Freelance)",
+        role: "IT Infrastructure Engineer",
         period: "Mar 2010 – May 2016",
         description: null,
         details: [
-            "Managed Windows Server/Linux, Active Directory, Hyper-V virtualization for SMB clients.",
-            "Designed disaster recovery protocols and automated backup strategies."
+            "Administered Windows Server environments and virtualization platforms, enforcing access controls for SMB clients.",
+            "Implemented structured data backup strategies and disaster recovery procedures to ensure business continuity."
         ]
     }
 ];

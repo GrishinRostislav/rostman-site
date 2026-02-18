@@ -39,7 +39,7 @@ const EducationSection = () => {
                                 <FaBookOpen className="text-green-500 mt-1 mr-3 flex-shrink-0" />
                                 <div>
                                     <span className="block font-semibold text-gray-700">CompTIA Security+</span>
-                                    <span className="text-sm text-gray-500">Exam Q2 2026</span>
+                                    <span className="text-sm text-gray-500">In Progress - Exam Scheduled Q2 2026</span>
                                 </div>
                             </li>
                             <li className="flex items-start">
