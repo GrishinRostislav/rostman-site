@@ -18,13 +18,13 @@ const HeroSection = () => {
         className="z-10 text-center max-w-4xl"
       >
         <h2 className="text-premium-accent font-bold tracking-wider uppercase mb-4 text-sm sm:text-base">
-          Systems Integration Specialist
+          Systems Integration Engineer
         </h2>
         <h1 className="text-5xl sm:text-7xl font-display font-bold mb-6 leading-tight tracking-tight">
           Rostislav Grishin
         </h1>
         <p className="text-lg sm:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Systems Integration Specialist with 13+ years of international experience. Expert in bridging the gap between physical infrastructure and network logic, optimizing workflows, and delivering high-availability systems for security, AV, and smart buildings.
+          Systems Integration Engineer with 13+ years of international experience (Canada, Israel, Kazakhstan). Holds a Master of Engineering and Technologies degree. Specializing in the intersection of physical infrastructure and network security. Proven track record of designing multi-layer architectures, automating RMM workflows to minimize truck rolls, and delivering secure, high-availability systems for enterprise and high-end residential clients.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

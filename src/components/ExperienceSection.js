@@ -27,15 +27,16 @@ const experiences = [
         ]
     },
     {
-        company: "TopAudio",
+        company: "Top Audio",
         location: "Herzliya, Israel",
-        role: "Infrastructure & Automation Engineer",
+        role: "Infrastructure & Network Security Engineer",
         period: "Jan 2022 – Oct 2024",
         description: null,
         details: [
-            "Designed and deployed high-end smart home ecosystems (Control4, Dynalite) from the ground up.",
-            "Managed rack architecture, cabling, network optimization, and final system programming.",
-            "Lowered emergency on-site visits by ~30% via proactive remote health monitoring."
+            "Designed multi-layer VLAN architectures for high-density AV and security deployments to ensure strict traffic separation.",
+            "Secured Fortinet, Cisco, and Araknis networking infrastructure within structured 42U rack systems.",
+            "Automated proactive RMM monitoring workflows, reducing on-site emergency visits by 30%.",
+            "Mentored junior engineers and formalized technical deployment documentation to enforce consistent security standards."
         ]
     },
     {
@@ -45,9 +46,22 @@ const experiences = [
         period: "Nov 2019 – Jan 2022",
         description: null,
         details: [
-            "Co-led the rollout of secure network stacks for 100+ retail branches.",
+            "Co-led the rollout of secure network stacks for **100+ retail branches** across the region.",
             "Performed physical installation and remote configuration of FortiGate and Meraki appliances.",
-            "Ensured network segmentation and consistent wireless coverage across diverse site layouts."
+            "Validated wireless coverage and ensured network segmentation across diverse site layouts."
+        ]
+    },
+    {
+        company: "KAHANE",
+        location: "Netanya, Israel",
+        role: "Systems Integration Engineer",
+        period: "Dec 2016 – Nov 2019",
+        description: null,
+        details: [
+            "Engineered and commissioned secure automation ecosystems for 70+ high-end properties.",
+            "Integrated building protocols (KNX, Modbus, BACnet) into unified management platforms.",
+            "Designed standardized rack architectures including power distribution and thermal management.",
+            "Managed on-site installation teams and coordinated with third-party contractors (electricians, HVAC) to ensure project timelines."
         ]
     },
     {

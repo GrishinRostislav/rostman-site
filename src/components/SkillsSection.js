@@ -4,24 +4,24 @@ import { motion } from "framer-motion";
 
 const skillsData = [
     {
-        category: "Automation & Security",
+        category: "Automation & Protocols",
         icon: <FaShieldAlt className="text-4xl text-red-500 mb-4" />,
-        skills: ["Control4", "Philips Dynalite", "Brivo", "AXIS", "Crestron"],
+        skills: ["Control4", "Philips Dynalite", "KNX", "Modbus", "BACnet", "Crestron"],
     },
     {
-        category: "Networking",
+        category: "Network & Security",
         icon: <FaNetworkWired className="text-4xl text-blue-500 mb-4" />,
-        skills: ["Fortinet (FortiGate)", "Cisco Meraki", "Aruba", "VLANs", "VPNs"],
+        skills: ["Fortinet (FortiGate)", "Cisco Meraki", "Aruba", "VLAN Segmentation", "VPN"],
     },
     {
-        category: "Systems & Virtualization",
+        category: "Infrastructure & Systems",
         icon: <FaServer className="text-4xl text-green-500 mb-4" />,
-        skills: ["Linux", "Windows Server", "Docker (Lab Testing)"],
+        skills: ["Linux", "Windows Server", "Docker", "42U Rack Design", "Thermal Mgmt"],
     },
     {
-        category: "Field Tools",
+        category: "Diagnostics & Software",
         icon: <FaLightbulb className="text-4xl text-yellow-500 mb-4" />,
-        skills: ["OvrC", "Domotz", "Wi-Fi Heatmapping (Ekahau)", "Documentation"],
+        skills: ["OvrC", "Domotz", "Wi-Fi Heatmapping (Ekahau)", "Python Automation"],
     },
 ];
 
