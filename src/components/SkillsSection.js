@@ -4,24 +4,24 @@ import { motion } from "framer-motion";
 
 const skillsData = [
     {
-        category: "Network & Security",
+        category: "Automation & Security",
         icon: <FaShieldAlt className="text-4xl text-red-500 mb-4" />,
-        skills: ["VLAN Architecture & Segmentation", "Firewall Configuration (Fortinet/Meraki)", "Encrypted VPN Tunnels", "Threat Surface Reduction"],
+        skills: ["Control4", "Philips Dynalite", "Brivo", "AXIS", "Crestron"],
     },
     {
-        category: "IoT & Hardware",
+        category: "Networking",
         icon: <FaNetworkWired className="text-4xl text-blue-500 mb-4" />,
-        skills: ["IoT/OT Security Hardening", "Access Control (AXIS, Brivo, CDVI)", "DSC Neo Intrusion Systems", "Enterprise Rack Engineering"],
+        skills: ["Fortinet (FortiGate)", "Cisco Meraki", "Aruba", "VLANs", "VPNs"],
     },
     {
-        category: "Systems & Automation",
-        icon: <FaLightbulb className="text-4xl text-yellow-500 mb-4" />,
-        skills: ["Linux Server Admin & Hardening", "Python CLI & Shell Scripting", "Proactive RMM (OvrC, Domotz)", "Disaster Recovery Strategies"],
-    },
-    {
-        category: "Lab & Infrastructure",
+        category: "Systems & Virtualization",
         icon: <FaServer className="text-4xl text-green-500 mb-4" />,
-        skills: ["OVHcloud VPS Administration", "Custom CRM & API Integration", "Home Lab Server Hardening", "Network Traffic Analysis"],
+        skills: ["Linux", "Windows Server", "Docker (Lab Testing)"],
+    },
+    {
+        category: "Field Tools",
+        icon: <FaLightbulb className="text-4xl text-yellow-500 mb-4" />,
+        skills: ["OvrC", "Domotz", "Wi-Fi Heatmapping (Ekahau)", "Documentation"],
     },
 ];
 

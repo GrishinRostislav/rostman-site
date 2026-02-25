@@ -3,22 +3,22 @@ import { motion } from "framer-motion";
 
 const projects = [
     {
-        title: "Enterprise Access Control Migration",
-        category: "Security Engineering",
-        description: "Designed and implemented a server-based access control system (AXIS) for a 100+ door facility, replacing a legacy analog system. Integrated with existing AD/LDAP for automated user management.",
-        tags: ["AXIS Camera Station", "Network Security", "Active Directory"],
-    },
-    {
-        title: "Luxury Smart Home Ecosystem",
-        category: "Building Automation",
-        description: "Engineered a fully integrated Control4 system for a 15,000 sq.ft residence. Orchestrated lighting (Dynalite), HVAC, and AV over a segmented enterprise-grade VLAN network.",
-        tags: ["Control4", "Dynalite", "VLAN / Network Architecture"],
-    },
-    {
-        title: "Centralized Network & VPN Infrastructure",
+        title: "Cloud Infrastructure Lab",
         category: "Cloud Infrastructure",
-        description: "Architected a self-hosted UniFi Controller on OVHcloud to centrally manage 50+ sites. Deployed a private WireGuard VPN gateway for secure, encrypted remote access to critical building automation systems.",
-        tags: ["OVHcloud VPS", "Ubiquiti UniFi", "WireGuard VPN", "Linux Admin"],
+        description: "Managing a Linux VPS on OVHcloud to host a private CRM portal and operate a secure VPN gateway.",
+        tags: ["OVHcloud", "Linux VPS", "VPN", "CRM"],
+    },
+    {
+        title: "Security Hardening",
+        category: "Network Security",
+        description: "Implemented service obfuscation utilizing non-standard ports and deployed custom firewall rules to mitigate automated scanning.",
+        tags: ["Firewall Rules", "Service Obfuscation", "Security"],
+    },
+    {
+        title: "Systems Automation",
+        category: "Scripting & Automation",
+        description: "Developed Python scripts to automate system health reports and execute routine network diagnostic tasks.",
+        tags: ["Python", "Automation", "Network Diagnostics"],
     }
 ];
 

@@ -4,40 +4,38 @@ import { motion } from "framer-motion";
 const experiences = [
     {
         company: "Unified Automation Inc.",
-        location: "Edmonton, AB",
-        role: "Network Security & Integration Specialist (Contract)",
+        location: "Edmonton, Canada",
+        role: "Systems Integration & Security Specialist (Contract)",
         period: "Oct 2025 – Present",
         description: null,
         details: [
-            "Secure enterprise IoT and physical access control systems by implementing strict VLAN network segmentation.",
-            "Prevent unauthorized lateral network movement by logically isolating high-risk edge hardware from core corporate data networks.",
-            "Configure encrypted VPN tunnels for secure remote diagnostics, removing the need for vulnerable public-facing IP addresses.",
-            "Monitor network health and security status for 50+ critical endpoints using proactive RMM tools to prevent system downtime."
+            "Executing field deployments of enterprise-grade access control, surveillance, and network systems.",
+            "Improved system reliability by implementing VPN-based Remote Monitoring and Management (RMM).",
+            "Standardizing documentation and labeling protocols for repeatable, high-quality installation results."
         ]
     },
     {
         company: "Signature Technology Integrations",
-        location: "Edmonton, AB",
-        role: "Security Integration Specialist (Contract)",
+        location: "Edmonton, Canada",
+        role: "Technical Operations Specialist (Contract)",
         period: "Mar 2025 – Oct 2025",
         description: null,
         details: [
-            "Conducted technical security audits on undocumented legacy networks to identify vulnerabilities and restore system stability.",
-            "Managed the secure network integration of 20+ commercial cloud-based access control systems, ensuring data privacy and compliance.",
-            "Designed network traffic rules to separate high-bandwidth IP cameras from internal business networks, improving overall network performance and security posture."
+            "Upgraded and stabilized legacy security and network systems for high-value commercial clients.",
+            "Coordinated on-site tasks and provided field leadership for junior installer teams.",
+            "Identified critical hardware bottlenecks and implemented streamlined process improvements."
         ]
     },
     {
         company: "TopAudio",
         location: "Herzliya, Israel",
-        role: "Infrastructure & Network Security Engineer",
+        role: "Infrastructure & Automation Engineer",
         period: "Jan 2022 – Oct 2024",
         description: null,
         details: [
-            "Designed multi-layer VLAN architectures for high-density AV and physical security deployments to ensure strict traffic separation.",
-            "Secured Fortinet, Cisco, and Araknis networking infrastructure within structured 42U rack systems.",
-            "Automated proactive RMM monitoring workflows, reducing on-site emergency visits by 30% through early detection of system faults.",
-            "Mentored junior engineers and formalized technical deployment documentation to enforce consistent security standards."
+            "Designed and deployed high-end smart home ecosystems (Control4, Dynalite) from the ground up.",
+            "Managed rack architecture, cabling, network optimization, and final system programming.",
+            "Lowered emergency on-site visits by ~30% via proactive remote health monitoring."
         ]
     },
     {
@@ -47,30 +45,32 @@ const experiences = [
         period: "Nov 2019 – Jan 2022",
         description: null,
         details: [
-            "Automated secure Cisco configuration workflows, significantly reducing deployment time across 130+ branch locations.",
-            "Deployed 150+ secure network infrastructures utilizing FortiGate firewalls and Aruba/Meraki access points.",
-            "Performed RF optimization and Wi-Fi heatmapping to ensure secure, reliable, and leak-free wireless coverage in complex architectural environments."
+            "Co-led the rollout of secure network stacks for 100+ retail branches.",
+            "Performed physical installation and remote configuration of FortiGate and Meraki appliances.",
+            "Ensured network segmentation and consistent wireless coverage across diverse site layouts."
         ]
     },
     {
-        company: "Kahane",
-        location: "Israel",
-        role: "Systems Integration Engineer",
-        period: "Dec 2016 – Nov 2019",
+        company: "Pharmacom",
+        location: "Almaty, Kazakhstan",
+        role: "System Administrator",
+        period: "2013 – 2016",
         description: null,
         details: [
-            "Engineered secure automation ecosystems for 70+ properties, enforcing strict firewall policies and VLAN isolation for vulnerable edge devices."
+            "Managed IT infrastructure and server uptime for a network of 200+ pharmacy locations.",
+            "Administered site-to-site VPN tunnels and critical internal accounting servers.",
+            "Mass Migration: Replaced hardware in 25 branches within 13 days with zero operational downtime."
         ]
     },
     {
-        company: "Rostman",
-        location: "Kazakhstan",
-        role: "IT Infrastructure Engineer",
-        period: "Mar 2010 – May 2016",
+        company: "EAT",
+        location: "Almaty, Kazakhstan",
+        role: "IT Support / Help Desk",
+        period: "2010 – 2013",
         description: null,
         details: [
-            "Administered Windows Server environments and virtualization platforms, enforcing access controls for SMB clients.",
-            "Implemented structured data backup strategies and disaster recovery procedures to ensure business continuity."
+            "Maintained office IT infrastructure and provided hardware/software support for local sites.",
+            "Resolved critical system incidents and performed routine server maintenance."
         ]
     }
 ];
