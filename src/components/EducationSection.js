@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGraduationCap, FaCertificate, FaBookOpen } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
 
 const EducationSection = () => {
     return (
