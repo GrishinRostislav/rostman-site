@@ -1,0 +1,14 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+User-agent: *
+Allow: /wp-content/uploads/
+Disallow: /wp-content/plugins/
+Disallow: /wp-admin/
+Disallow: /phmyadm/
+Disallow: /*.pdf
+Disallow: /materials/%_cta_materialscategory%/
+Disallow: /materials/*/
+
+Sitemap: https://www.henge07.com/sitemap_index.xml
+
