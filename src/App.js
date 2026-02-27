@@ -16,6 +16,7 @@ import EducationSection from "./components/EducationSection";
 import ContactSection from "./components/ContactSection";
 
 // Keep old pages accessible via routes if needed
+import ConsultingPage from "./pages/ConsultingPage";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import ContactPage from "./pages/Contacts";
@@ -47,6 +48,9 @@ function App() {
               <ContactSection />
             </>
           } />
+
+          {/* Landing Pages */}
+          <Route path="/consulting" element={<ConsultingPage />} />
 
           {/* Legacy/Detailed Routes */}
           <Route path="/about" element={<AboutUs />} />
