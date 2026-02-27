@@ -1,0 +1,20 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:match*",
+            "destination": "https://www.henge07.com/api/:match*"
+        },
+        {
+            "source": "/it/api/:match*",
+            "destination": "https://www.henge07.com/api/:match*"
+        },
+        {
+            "source": "/app/:match*",
+            "destination": "https://www.henge07.com/app/:match*"
+        },
+        {
+            "source": "/wp-json/:match*",
+            "destination": "https://www.henge07.com/wp-json/:match*"
+        }
+    ]
+}
