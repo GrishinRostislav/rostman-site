@@ -3,22 +3,22 @@ import { motion } from "framer-motion";
 
 const projects = [
     {
-        title: "Cloud Infrastructure Lab",
-        category: "Cloud Infrastructure",
-        description: "Managing a Linux VPS on OVHcloud to host a private CRM portal and operate a secure VPN gateway.",
-        tags: ["OVHcloud", "Linux VPS", "VPN", "CRM"],
+        title: "NeuroLang App Development",
+        category: "Software Development",
+        description: "Architected and developed a robust cross-platform learning application focused on streamlined user interaction, leveraging modern front-end frameworks and scalable backend architecture.",
+        tags: ["Software Engineering", "Frontend", "Backend", "UI/UX"],
     },
     {
-        title: "Security Hardening",
-        category: "Network Security",
-        description: "Implemented service obfuscation utilizing non-standard ports and deployed custom firewall rules to mitigate automated scanning.",
-        tags: ["Firewall Rules", "Service Obfuscation", "Security"],
+        title: "Cloud Infrastructure & VPN",
+        category: "Cloud Infrastructure & Security",
+        description: "Designed, deployed, and managed a self-hosted Linux VPS on OVHcloud. Hardened the server boundary using advanced WireGuard cryptography and custom firewall policies to establish a highly secure remote access gateway.",
+        tags: ["OVHcloud", "Linux VPS", "WireGuard", "Network Hardening"],
     },
     {
-        title: "Systems Automation",
+        title: "Systems Automation & Diagnostics",
         category: "Scripting & Automation",
-        description: "Developed Python scripts to automate system health reports and execute routine network diagnostic tasks.",
-        tags: ["Python", "Automation", "Network Diagnostics"],
+        description: "Developed purpose-built Python scripts to automate comprehensive system health reporting, execute routine network diagnostic tasks, and detect infrastructure anomalies before failure.",
+        tags: ["Python", "Automation Scripting", "Diagnostics", "Proactive RMM"],
     }
 ];
 

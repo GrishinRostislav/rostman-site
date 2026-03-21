@@ -18,13 +18,13 @@ const HeroSection = () => {
         className="z-10 text-center max-w-4xl"
       >
         <h2 className="text-premium-accent font-bold tracking-wider uppercase mb-4 text-sm sm:text-base">
-          Systems Integration Engineer
+          Senior Systems Integration & Network Engineer
         </h2>
         <h1 className="text-5xl sm:text-7xl font-display font-bold mb-6 leading-tight tracking-tight">
           Rostislav Grishin
         </h1>
         <p className="text-lg sm:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Systems Integration Engineer with 13+ years of international experience (Canada, Israel, Kazakhstan). Holds a Master of Engineering and Technologies degree. Specializing in the intersection of physical infrastructure and network security. Proven track record of designing multi-layer architectures, automating RMM workflows to minimize truck rolls, and delivering secure, high-availability systems for enterprise and high-end residential clients.
+          Senior Engineer with 13+ years of experience in secure infrastructure and network integration. Hands-on experience with Fortinet, Cisco Meraki, Aruba, and Araknis hardware. Specializing in multi-site deployments (100+ locations), high-density rack design, and optimizing RMM workflows to reduce operational costs by 30%.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -48,7 +48,7 @@ const HeroSection = () => {
           <a
             href="/Rostislav_Grishin_Systems_Integration_Specialist.pdf"
             download
-            className="cursor-pointer flex items-center gap-2 text-gray-400 hover:text-white font-medium py-3 px-6 transition-colors"
+            className="cursor-pointer flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-premium-accent border-2 border-premium-accent font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(59,130,246,0.5)] hover:shadow-[0_0_25px_rgba(59,130,246,0.8)]"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
