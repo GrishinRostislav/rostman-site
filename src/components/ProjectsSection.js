@@ -3,22 +3,28 @@ import { motion } from "framer-motion";
 
 const projects = [
     {
-        title: "NeuroLang App Development",
+        title: "NeuroLang App",
         category: "Software Development",
-        description: "Architected and developed a robust cross-platform learning application focused on streamlined user interaction, leveraging modern front-end frameworks and scalable backend architecture.",
-        tags: ["Software Engineering", "Frontend", "Backend", "UI/UX"],
+        description: "Developing a language-learning mobile application.",
+        tags: ["NeuroLang", "Mobile App"],
     },
     {
-        title: "Cloud Infrastructure & VPN",
-        category: "Cloud Infrastructure & Security",
-        description: "Designed, deployed, and managed a self-hosted Linux VPS on OVHcloud. Hardened the server boundary using advanced WireGuard cryptography and custom firewall policies to establish a highly secure remote access gateway.",
-        tags: ["OVHcloud", "Linux VPS", "WireGuard", "Network Hardening"],
+        title: "Cloud Infrastructure Lab",
+        category: "Infrastructure",
+        description: "Managing a Linux VPS (OVHcloud) hosting private CRM and VPN (WireGuard/OpenVPN).",
+        tags: ["OVHcloud", "Linux VPS", "WireGuard", "OpenVPN"],
     },
     {
-        title: "Systems Automation & Diagnostics",
-        category: "Scripting & Automation",
-        description: "Developed purpose-built Python scripts to automate comprehensive system health reporting, execute routine network diagnostic tasks, and detect infrastructure anomalies before failure.",
-        tags: ["Python", "Automation Scripting", "Diagnostics", "Proactive RMM"],
+        title: "Security Hardening",
+        category: "Security",
+        description: "Implementing service obfuscation and custom firewall rules for edge services.",
+        tags: ["Firewall", "Obfuscation", "Security"],
+    },
+    {
+        title: "Automation",
+        category: "Scripting",
+        description: "Python scripts for automated system health reports and diagnostics.",
+        tags: ["Python", "Automation", "Diagnostics"],
     }
 ];
 
@@ -27,7 +33,7 @@ const ProjectsSection = () => {
         <section id="projects" className="py-20 bg-gray-900 text-white">
             <div className="max-w-6xl mx-auto px-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-                    Selected Case Studies
+                    Projects (Professional Hobbies)
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -18,9 +18,8 @@ const EducationSection = () => {
                         </div>
                         <ul className="space-y-4">
                             <li>
-                                <p className="text-gray-800 font-bold">Master of Engineering and Technologies</p>
-                                <p className="text-gray-600 mb-1">Radio Engineering, Electronics and Telecommunications</p>
-                                <p className="text-gray-500 text-sm">Almaty University of Power Engineering and Telecommunications (AUPET), Kazakhstan | 2010 – 2012</p>
+                                <p className="text-gray-800 font-bold">Master of Engineering and Technologies <span className="font-normal">(Radio Engineering & Telecommunications)</span></p>
+                                <p className="text-gray-500 text-sm">Almaty University of Power Engineering and Telecommunications (AUPET)</p>
                             </li>
                         </ul>
                     </div>

@@ -24,7 +24,7 @@ const HeroSection = () => {
           Rostislav Grishin
         </h1>
         <p className="text-lg sm:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Senior Engineer with 13+ years of experience in secure infrastructure and network integration. Hands-on experience with Fortinet, Cisco Meraki, Aruba, and Araknis hardware. Specializing in multi-site deployments (100+ locations), high-density rack design, and optimizing RMM workflows to reduce operational costs by 30%.
+          Senior Systems Integration & Network Engineer with 13+ years of international experience (Canada, Israel, Kazakhstan). Specialized in designing secure, high-availability infrastructure at the intersection of physical systems and network security. Proven track record in <span className="font-bold text-white">multi-site deployments (100+ locations)</span>, implementing Fortinet-based security architectures, and leading field teams to deliver enterprise-grade results.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

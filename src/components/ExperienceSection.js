@@ -5,25 +5,25 @@ const experiences = [
     {
         company: "Unified Automation Inc.",
         location: "Edmonton, Canada",
-        role: "Systems Integration & Security Specialist (Contract)",
+        role: "Systems Integration & Security Specialist",
         period: "Oct 2025 – Present",
         description: null,
         details: [
             "Executing field deployments of enterprise-grade access control, surveillance, and network systems.",
-            "Improved system reliability by implementing VPN-based Remote Monitoring and Management (RMM).",
-            "Standardizing documentation and labeling protocols for repeatable, high-quality installation results."
+            "Enhanced reliability by implementing VPN-based Remote Monitoring and Management (RMM).",
+            "Standardizing technical documentation and labeling protocols for scalable installation results."
         ]
     },
     {
         company: "Signature Technology Integrations",
         location: "Edmonton, Canada",
-        role: "Technical Operations Specialist (Contract)",
+        role: "Technical Operations Specialist",
         period: "Mar 2025 – Oct 2025",
         description: null,
         details: [
             "Upgraded and stabilized legacy security and network systems for high-value commercial clients.",
-            "Coordinated on-site tasks and provided field leadership for junior installer teams.",
-            "Identified critical hardware bottlenecks and implemented streamlined process improvements."
+            "Led on-site teams and coordinated field tasks to ensure project quality and deadlines.",
+            "Identified and resolved critical hardware bottlenecks through advanced troubleshooting."
         ]
     },
     {
@@ -33,10 +33,10 @@ const experiences = [
         period: "Jan 2022 – Oct 2024",
         description: null,
         details: [
-            "Designed multi-layer VLAN architectures for high-density AV and security deployments to ensure strict traffic separation.",
-            "Secured Fortinet, Cisco, and Araknis networking infrastructure within structured 42U rack systems.",
-            "Automated proactive RMM monitoring workflows, reducing on-site emergency visits by 30%.",
-            "Mentored junior engineers and formalized technical deployment documentation to enforce consistent security standards."
+            "Designed multi-layer VLAN architectures for high-density AV and security deployments.",
+            "Integrated Fortinet and Cisco infrastructure within standardized 42U rack systems.",
+            "Reduced emergency on-site visits by 30% through automated RMM workflows.",
+            "Mentored junior engineers and formalized security documentation."
         ]
     },
     {
@@ -46,9 +46,9 @@ const experiences = [
         period: "Nov 2019 – Jan 2022",
         description: null,
         details: [
-            "Co-led the rollout of secure network stacks for **100+ retail branches** across the region.",
-            "Performed physical installation and remote configuration of FortiGate and Meraki appliances.",
-            "Validated wireless coverage and ensured network segmentation across diverse site layouts."
+            "Co-led the rollout of secure network stacks for 100+ retail branches.",
+            "Configured and installed FortiGate and Meraki appliances across diverse site layouts.",
+            "Ensured network segmentation and validated wireless coverage via site surveys."
         ]
     },
     {
@@ -58,10 +58,10 @@ const experiences = [
         period: "Dec 2016 – Nov 2019",
         description: null,
         details: [
-            "Engineered and commissioned secure automation ecosystems for 70+ high-end properties.",
-            "Integrated building protocols (KNX, Modbus, BACnet) into unified management platforms.",
-            "Designed standardized rack architectures including power distribution and thermal management.",
-            "Managed on-site installation teams and coordinated with third-party contractors (electricians, HVAC) to ensure project timelines."
+            "Commissioned secure automation ecosystems for 70+ high-end properties.",
+            "Integrated building protocols (Modbus, BACnet) into unified management platforms.",
+            "Designed rack architectures including power distribution and thermal management.",
+            "Coordinated with third-party contractors (HVAC, electricians) to meet project timelines."
         ]
     },
     {
@@ -71,20 +71,9 @@ const experiences = [
         period: "2013 – 2016",
         description: null,
         details: [
-            "Managed IT infrastructure and server uptime for a network of 200+ pharmacy locations.",
+            "Managed IT infrastructure for a network of 200+ pharmacy locations.",
             "Administered site-to-site VPN tunnels and critical internal accounting servers.",
-            "Mass Migration: Replaced hardware in 25 branches within 13 days with zero operational downtime."
-        ]
-    },
-    {
-        company: "EAT",
-        location: "Almaty, Kazakhstan",
-        role: "IT Support / Help Desk",
-        period: "2010 – 2013",
-        description: null,
-        details: [
-            "Maintained office IT infrastructure and provided hardware/software support for local sites.",
-            "Resolved critical system incidents and performed routine server maintenance."
+            "Mass Migration: Replaced hardware in 25 branches within 13 days with zero downtime."
         ]
     }
 ];
