@@ -60,7 +60,7 @@ const experiences = [
         details: [
             "Commissioned secure automation ecosystems for 70+ high-end properties.",
             "Integrated building protocols (Modbus, BACnet) into unified management platforms.",
-            "Designed rack architectures including power distribution and thermal management.",
+            "Designed rack architectures including power distribution.",
             "Coordinated with third-party contractors (HVAC, electricians) to meet project timelines."
         ]
     },

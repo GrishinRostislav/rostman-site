@@ -81,6 +81,7 @@ function Header() {
           <NavItem to="experience">Experience</NavItem>
           <NavItem to="education">Education</NavItem>
           <NavItem to="contact">Contact</NavItem>
+          <RouterLink to="/portfolio-gallery" className="cursor-pointer hover:text-premium-accent font-bold transition-colors" onClick={() => setMenuOpen(false)}>Portfolio</RouterLink>
         </nav>
 
         {/* MOBILE MENU TOGGLE */}
@@ -144,6 +145,13 @@ function Header() {
             >
               Contact
             </ScrollLink>
+            <RouterLink
+              to="/portfolio-gallery"
+              className="text-xl font-bold text-premium-accent"
+              onClick={() => setMenuOpen(false)}
+            >
+              Portfolio
+            </RouterLink>
           </motion.div>
         )}
       </AnimatePresence>

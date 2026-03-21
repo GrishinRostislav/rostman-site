@@ -63,6 +63,12 @@ const ProjectsSection = () => {
                         </motion.div>
                     ))}
                 </div>
+
+                <div className="mt-16 text-center">
+                    <a href="/portfolio-gallery" className="inline-block bg-premium-accent hover:bg-sky-400 text-white font-bold py-4 px-10 rounded-full transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(59,130,246,0.6)] hover:shadow-[0_0_25px_rgba(59,130,246,0.9)] text-lg border-2 border-premium-accent">
+                        View Full Case & Portfolio Gallery
+                    </a>
+                </div>
             </div>
         </section>
     );

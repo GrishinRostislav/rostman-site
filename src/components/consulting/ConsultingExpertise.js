@@ -13,7 +13,7 @@ const expertiseVectors = [
         icon: <FaHome className="text-4xl text-blue-400 mb-6" />,
         title: "Smart Systems & IoT",
         description: "Deep, protocol-level mastery of enterprise and ultra-luxury automation environments. Architecting systems that unify disparate sub-systems into single cohesive entities.",
-        highlights: ["Control4 & Crestron", "Philips Dynalite", "Access Control & Surveillance"]
+        highlights: ["Control4", "Philips Dynalite", "Access Control & Surveillance"]
     },
     {
         icon: <FaChartLine className="text-4xl text-indigo-400 mb-6" />,

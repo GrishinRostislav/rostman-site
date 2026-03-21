@@ -11,17 +11,17 @@ const skillsData = [
     {
         category: "Infrastructure",
         icon: <FaServer className="text-4xl text-green-500 mb-4" />,
-        skills: ["42U Rack Design", "Thermal Management", "Power Distribution", "Linux (Ubuntu)", "Docker"],
+        skills: ["42U Rack Design", "Power Distribution", "Linux (Ubuntu)", "Docker"],
     },
     {
         category: "Automation & Protocols",
         icon: <FaShieldAlt className="text-4xl text-red-500 mb-4" />,
-        skills: ["Control4", "Philips Dynalite", "Modbus", "BACnet", "Crestron", "Complex integration ecosystems"],
+        skills: ["Control4", "Philips Dynalite", "Modbus", "BACnet", "Complex integration ecosystems"],
     },
     {
         category: "Tools & Diagnostics",
         icon: <FaLightbulb className="text-4xl text-yellow-500 mb-4" />,
-        skills: ["OvrC", "Domotz", "Ekahau (Wi-Fi Heatmapping)", "Python Automation"],
+        skills: ["OvrC", "Domotz", "Python Automation"],
     },
 ];
 
