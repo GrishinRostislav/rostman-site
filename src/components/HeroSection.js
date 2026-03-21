@@ -46,7 +46,7 @@ const HeroSection = () => {
             Contact Me
           </Link>
           <a
-            href="/Rostislav_Grishin_Systems_Integration_Specialist.pdf"
+            href="/Rostislav_Grishin_Senior_Systems_Integration_Engineer.pdf"
             download
             className="cursor-pointer flex items-center gap-2 bg-gray-800 hover:bg-gray-700 text-premium-accent border-2 border-premium-accent font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(59,130,246,0.5)] hover:shadow-[0_0_25px_rgba(59,130,246,0.8)]"
           >
