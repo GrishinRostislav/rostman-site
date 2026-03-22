@@ -18,13 +18,13 @@ const HeroSection = () => {
         className="z-10 text-center max-w-4xl"
       >
         <h2 className="text-premium-accent font-bold tracking-wider uppercase mb-4 text-sm sm:text-base">
-          Senior Systems Integration & Network Engineer
+          Network & Systems Integration Specialist
         </h2>
         <h1 className="text-5xl sm:text-7xl font-display font-bold mb-6 leading-tight tracking-tight">
           Rostislav Grishin
         </h1>
         <p className="text-lg sm:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Senior Systems Integration & Network Engineer with 13+ years of international experience (Canada, Israel, Kazakhstan). Specialized in designing secure, high-availability infrastructure at the intersection of physical systems and network security. Proven track record in <span className="font-bold text-white">multi-site deployments (100+ locations)</span>, implementing Fortinet-based security architectures, and leading field teams to deliver enterprise-grade results.
+          IT and Systems Integration Specialist with 13+ years of international experience (Canada, Israel, Kazakhstan) bridging physical infrastructure and network deployment. Dedicated to designing secure, high-availability infrastructure. Proven track record of configuring secure networks (Cisco Meraki, Aruba, Fortinet) across <span className="font-bold text-white">100+ multi-site locations</span>, designing high-density 42U racks, and optimizing RMM workflows to reduce operational visits by 30%. Strong background in low-voltage systems and OT integration. Currently pursuing the <span className="font-bold text-premium-accent">AWS Solutions Architect Associate (SAA-C03)</span> certification to transition into cloud-integrated infrastructure.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

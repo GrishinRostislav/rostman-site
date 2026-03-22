@@ -6,22 +6,22 @@ const skillsData = [
     {
         category: "Networking & Security",
         icon: <FaNetworkWired className="text-4xl text-blue-500 mb-4" />,
-        skills: ["Fortinet (FortiGate)", "Cisco Meraki", "Aruba", "VLAN Segmentation", "VPN (Site-to-Site, WireGuard)"],
+        skills: ["Cisco Meraki & Aruba", "Fortinet (FortiGate)", "VLAN Segmentation", "L2/L3 Troubleshooting", "VPN (WireGuard/OpenVPN)"],
     },
     {
-        category: "Infrastructure",
+        category: "Infrastructure & Hardware",
         icon: <FaServer className="text-4xl text-green-500 mb-4" />,
-        skills: ["42U Rack Design", "Power Distribution", "Linux (Ubuntu)", "Docker"],
+        skills: ["42U Rack Design", "Low-Voltage Deployment", "Access Control & Surveillance", "Power Distribution", "Docker"],
     },
     {
-        category: "Automation & Protocols",
+        category: "OT & Integration",
         icon: <FaShieldAlt className="text-4xl text-red-500 mb-4" />,
-        skills: ["Control4", "Philips Dynalite", "Modbus", "BACnet", "Complex integration ecosystems"],
+        skills: ["Modbus", "BACnet", "Control4", "Philips Dynalite", "Complex integration ecosystems"],
     },
     {
-        category: "Tools & Diagnostics",
+        category: "Systems & Tools",
         icon: <FaLightbulb className="text-4xl text-yellow-500 mb-4" />,
-        skills: ["OvrC", "Domotz", "Python Automation"],
+        skills: ["Linux (Ubuntu)", "RMM Deployment", "Proactive Monitoring", "Remote Support & Diagnostics", "Python Automation"],
     },
 ];
 

@@ -17,9 +17,13 @@ const EducationSection = () => {
                             <h3 className="text-xl font-bold text-gray-800">Academic Degrees</h3>
                         </div>
                         <ul className="space-y-4">
-                            <li>
+                            <li className="mb-6">
                                 <p className="text-gray-800 font-bold">Master of Engineering and Technologies <span className="font-normal">(Radio Engineering & Telecommunications)</span></p>
                                 <p className="text-gray-500 text-sm">Almaty University of Power Engineering and Telecommunications (AUPET)</p>
+                            </li>
+                            <li>
+                                <p className="text-gray-800 font-bold">AWS Solutions Architect Associate (SAA-C03) <span className="font-bold text-white bg-premium-accent px-2 py-0.5 rounded text-xs ml-2 uppercase tracking-wider">In Progress</span></p>
+                                <p className="text-gray-500 text-sm">Amazon Web Services (AWS) Certification</p>
                             </li>
                         </ul>
                     </div>

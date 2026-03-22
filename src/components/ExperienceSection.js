@@ -9,9 +9,10 @@ const experiences = [
         period: "Oct 2025 – Present",
         description: null,
         details: [
-            "Executing field deployments of enterprise-grade access control, surveillance, and network systems.",
-            "Enhanced reliability by implementing VPN-based Remote Monitoring and Management (RMM).",
-            "Standardizing technical documentation and labeling protocols for scalable installation results."
+            "Deploying enterprise access control and surveillance systems; standardized project documentation for 100% repeatable results.",
+            "Led the end-to-end installation of low-voltage cabling and network hardware, ensuring strict adherence to industry standards.",
+            "Implemented VPN-based Remote Monitoring and Management (RMM), significantly increasing system reliability and remote support capabilities.",
+            "Acted as the primary technical liaison between clients, facility managers, and third-party contractors to ensure precise project execution."
         ]
     },
     {
@@ -21,9 +22,10 @@ const experiences = [
         period: "Mar 2025 – Oct 2025",
         description: null,
         details: [
-            "Upgraded and stabilized legacy security and network systems for high-value commercial clients.",
-            "Led on-site teams and coordinated field tasks to ensure project quality and deadlines.",
-            "Identified and resolved critical hardware bottlenecks through advanced troubleshooting."
+            "Stabilized legacy security networks for commercial clients and successfully managed on-site deployment schedules.",
+            "Designed, assembled, and managed 42U network racks, integrating switching equipment with physical security systems.",
+            "Identified hardware bottlenecks, optimizing system performance through targeted physical and network infrastructure upgrades.",
+            "Trained and supervised junior installer teams on Layer 1/Level 2 troubleshooting and hardware deployment protocols."
         ]
     },
     {
@@ -33,10 +35,10 @@ const experiences = [
         period: "Jan 2022 – Oct 2024",
         description: null,
         details: [
-            "Designed multi-layer VLAN architectures for high-density AV and security deployments.",
-            "Integrated Fortinet and Cisco infrastructure within standardized 42U rack systems.",
-            "Reduced emergency on-site visits by 30% through automated RMM workflows.",
-            "Mentored junior engineers and formalized security documentation."
+            "Designed multi-layer VLAN architectures for high-density environments; secured Cisco, Aruba, and Fortinet network stacks in enterprise racks.",
+            "Integrated complex OT protocols (Modbus, BACnet) to bridge physical building automation with IP networks.",
+            "Automated proactive RMM monitoring workflows, reducing emergency on-site visits by 30%.",
+            "Managed vendor relations with ISPs and authored standardized technical documentation for enterprise-grade infrastructure."
         ]
     },
     {
@@ -46,8 +48,8 @@ const experiences = [
         period: "Nov 2019 – Jan 2022",
         description: null,
         details: [
-            "Co-led the rollout of secure network stacks for 100+ retail branches.",
-            "Configured and installed FortiGate and Meraki appliances across diverse site layouts.",
+            "Co-led secure network stack rollout for 100+ retail branches.",
+            "Configured and installed Cisco Meraki, FortiGate, and enterprise routing appliances across diverse site layouts.",
             "Ensured network segmentation and validated wireless coverage via site surveys."
         ]
     },
@@ -74,6 +76,17 @@ const experiences = [
             "Managed IT infrastructure for a network of 200+ pharmacy locations.",
             "Administered site-to-site VPN tunnels and critical internal accounting servers.",
             "Mass Migration: Replaced hardware in 25 branches within 13 days with zero downtime."
+        ]
+    },
+    {
+        company: "EAT",
+        location: "Almaty, Kazakhstan",
+        role: "IT Support Specialist",
+        period: "2010 – 2013",
+        description: null,
+        details: [
+            "Maintained office IT infrastructure and provided hardware/software support for local sites.",
+            "Resolved critical system incidents and performed routine server maintenance."
         ]
     }
 ];
